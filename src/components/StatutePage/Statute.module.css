@@ -1,0 +1,58 @@
+.statut {
+    background: #fff;
+}
+
+.heading {
+    margin: 0 0 30px;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 1.3;
+    color: var(--paroti-black, #144047);
+    letter-spacing: -0.02em;
+    text-align: left;
+}
+
+.chapter {
+    margin-bottom: 36px;
+}
+
+.par {
+    margin: 0 0 10px;
+    font-weight: 800;
+    color: var(--paroti-black, #144047);
+    text-align: center;
+}
+
+.par span {
+    font-weight: 700;
+    color: var(--paroti-primary, #138999);
+}
+
+.chapter p {
+    color: var(--paroti-text, #768385);
+    line-height: 1.86em;
+    margin: 0 0 12px;
+}
+
+.chapter ol {
+    margin: 0 0 12px 20px;
+    color: var(--paroti-text, #768385);
+    line-height: 1.86em;
+}
+
+.chapter ol>li {
+    margin-bottom: 6px;
+}
+
+.chapter ol ol {
+    margin-top: 6px;
+}
+
+.header {
+    margin-bottom: 40px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    background: #f9f9f9;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}

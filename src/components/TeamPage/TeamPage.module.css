@@ -1,0 +1,57 @@
+.team {
+    background: #fff;
+}
+
+.card {
+    text-align: center;
+    background: #fff;
+    border-radius: 6px;
+    padding: 20px;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.image {
+    margin: 20px 0;
+}
+
+.image img {
+    width: 100%;
+    border-radius: 6px;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: 800;
+    margin: 0;
+    color: var(--paroti-black, #144047);
+}
+
+.title a {
+    color: inherit;
+}
+
+.role {
+    font-size: 15px;
+    color: var(--paroti-text, #768385);
+}
+
+.prezes {
+    background: #fde9d9;
+}
+
+.komisja {
+    background: #e8f3fc;
+}
+
+.czlonek {
+    background: #d1ecb6;
+}
+
+.wolontariusz {
+    background: #ffd9f1;
+}

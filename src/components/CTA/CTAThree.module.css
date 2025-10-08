@@ -1,0 +1,82 @@
+.ctaThree {}
+
+.inner {
+    background-color: #8139e7;
+    position: relative;
+    text-align: center;
+    padding: 4.25rem 15px;
+}
+
+@media (min-width: 992px) {
+    .inner {
+        text-align: left;
+        padding: 0;
+        padding-right: 5rem;
+        display: flex;
+        align-items: center;
+    }
+}
+
+.innerBg {
+    position: absolute;
+    inset: 0;
+    background-color: #8139e7;
+    opacity: 0.05;
+    mix-blend-mode: luminosity;
+    background-position: bottom center;
+    background-repeat: repeat-x;
+    animation: bgSlide 20s linear infinite;
+}
+
+.icon {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: #7832dc;
+}
+
+@media (min-width: 992px) {
+    .icon {
+        height: 197px;
+        margin-right: 57px;
+    }
+}
+
+.icon i {
+    font-size: 58px;
+}
+
+.title {
+    position: relative;
+    font-size: 2.25rem;
+    line-height: 1.2em;
+    font-weight: 800;
+    color: #fff;
+    letter-spacing: -0.04em;
+    margin: 0;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+@media (min-width: 992px) {
+    .title {
+        max-width: 415px;
+        margin-right: auto;
+        margin: 0;
+    }
+}
+
+.btns {
+    display: inline-flex;
+    position: relative;
+}
+
+@media (min-width: 992px) {
+    .btns {
+        margin-left: auto;
+    }
+}
