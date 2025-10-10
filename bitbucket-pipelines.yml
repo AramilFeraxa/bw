@@ -1,3 +1,8 @@
+#  Template NodeJS build
+
+#  This template allows you to validate your NodeJS code.
+#  The workflow allows running tests and code linting on the default branch.
+
 image: node:18
 
 pipelines:
@@ -11,43 +16,29 @@ pipelines:
             - apt-get update && apt-get install -y zip
             - npm install --legacy-peer-deps
             - npm run build
-            - zip -r app.zip .next package.json next.config.js public
+            - cp public/.htaccess out/.htaccess || true
+            - zip -r out.zip out
           artifacts:
-            - app.zip
-
+            - out.zip
       - step:
           name: Upload
           script:
-            - mkdir artifact
-            - cp app.zip artifact
-            - pipe: atlassian/ftp-deploy:0.4.1
-              variables:
-                USER: $REMOTE_USER
-                PASSWORD: $REMOTE_PASSWORD
-                SERVER: $REMOTE_SERVER
-                REMOTE_PATH: /bitbucket-artifact-bw/
-                LOCAL_PATH: ${BITBUCKET_CLONE_DIR}/artifact/
-
+              - mkdir artifact
+              - cp out.zip artifact
+              - pipe: atlassian/ftp-deploy:0.4.1
+                variables:
+                  USER: $REMOTE_USER
+                  PASSWORD: $REMOTE_PASSWORD
+                  SERVER: $REMOTE_SERVER
+                  REMOTE_PATH: /bitbucket-artifact-bw/
+                  LOCAL_PATH: ${BITBUCKET_CLONE_DIR}/artifact/
       - step:
-          name: Deploy
           script:
-            - pipe: atlassian/ssh-run:0.4.3
-              variables:
-                SSH_USER: $REMOTE_USER
-                SERVER: $REMOTE_SERVER
-                COMMAND: |
-                  export PATH=$PATH:/usr/local/bin
-                  cd bitbucket-artifact-bw
-                  unzip -o app.zip -d ../bezpiecznywypoczynek_new
-                  cd ../bezpiecznywypoczynek_new
-                  npm install --production --legacy-peer-deps
-                  npm install pm2
-                  npx pm2 delete next-app || true
-                  npx pm2 start npm --name "next-app" -- start --silent
-                  npx pm2 save
-                  echo "Deployment finished."
-                  exit 0
-
+              - pipe: atlassian/ssh-run:0.4.3
+                variables:
+                  SSH_USER: $REMOTE_USER
+                  SERVER: $REMOTE_SERVER
+                  COMMAND: 'unzip -o bitbucket-artifact-bw/out.zip && rm -r bezpiecznywypoczynek_new/* && cp -r out/* bezpiecznywypoczynek_new && rm -r bitbucket-artifact-bw && rm -r out && cd bezpiecznywypoczynek_new && nodecli restart'
   default:
     - step:
         name: Build
