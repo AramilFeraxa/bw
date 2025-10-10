@@ -38,17 +38,16 @@ pipelines:
                 COMMAND: |
                   cd bitbucket-artifact-bw
                   unzip -o app.zip -d ../bezpiecznywypoczynek_new
-                  cd ../bezpiecznywypoczynek_new
+                   cd ../bezpiecznywypoczynek_new
                   npm install --production --legacy-peer-deps
-                  if ! command -v pm2 >/dev/null 2>&1; then
-                    npm install -g pm2
+                  if [ ! -f "./node_modules/.bin/pm2" ]; then
+                    npm install pm2
                   fi
-                  if pm2 list | grep -q "next-app"; then
-                    pm2 restart next-app
+                  if npx pm2 list | grep -q "next-app"; then
+                    npx pm2 restart next-app
                   else
-                    pm2 start npm --name "next-app" -- start
+                    npx pm2 start npm --name "next-app" -- start
                   fi
-
   default:
     - step:
         name: Build
