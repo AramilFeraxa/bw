@@ -36,18 +36,18 @@ pipelines:
                 SSH_USER: $REMOTE_USER
                 SERVER: $REMOTE_SERVER
                 COMMAND: |
+                  export PATH=$PATH:/usr/local/bin
                   cd bitbucket-artifact-bw
                   unzip -o app.zip -d ../bezpiecznywypoczynek_new
-                   cd ../bezpiecznywypoczynek_new
+                  cd ../bezpiecznywypoczynek_new
                   npm install --production --legacy-peer-deps
-                  if [ ! -f "./node_modules/.bin/pm2" ]; then
-                    npm install pm2
-                  fi
-                  if npx pm2 list | grep -q "next-app"; then
-                    npx pm2 restart next-app
-                  else
-                    npx pm2 start npm --name "next-app" -- start
-                  fi
+                  npm install pm2
+                  npx pm2 delete next-app || true
+                  npx pm2 start npm --name "next-app" -- start --silent
+                  npx pm2 save
+                  echo "Deployment finished."
+                  exit 0
+
   default:
     - step:
         name: Build
