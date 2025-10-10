@@ -1,5 +1,5 @@
 import styles from "./BlogHome.module.css";
-import { postsHomeTwo } from "@/data/blog";
+import { postsHomeTwo } from "@/data/blogMain";
 import BlogCard from "./BlogCard";
 
 export default function BlogHomeTwo() {

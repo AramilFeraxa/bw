@@ -1,0 +1,41 @@
+.prose {
+    display: grid;
+    gap: 28px
+}
+
+.sectionBlock {
+    padding-top: 16px;
+    border-top: 1px solid #eef2f7
+}
+
+.sectionBlock:first-child {
+    border-top: none;
+    padding-top: 0
+}
+
+.semiTitle {
+    display: block;
+    font-weight: 800;
+    margin: 4px 0 8px;
+    font-size: 1.125rem;
+    letter-spacing: .01em;
+    color: var(--paroti-heading, #0f172a)
+}
+
+.paragraph {
+    line-height: 1.9;
+    color: var(--paroti-text, #768385);
+    margin: 10px 0
+}
+
+.list {
+    padding-left: 1.2rem;
+    margin: 10px 0 16px;
+    color: var(--paroti-text, #768385);
+}
+
+@media (max-width:768px) {
+    .semiTitle {
+        font-size: 1.3rem
+    }
+}

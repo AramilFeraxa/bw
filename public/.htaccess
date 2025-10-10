@@ -1,0 +1,20 @@
+RewriteEngine On
+
+Redirect 301 /konferencja-dla-nauczycieli-wojew%C3%B3dztwa-opolskiego-II-edycja.html /konferencja-dla-nauczycieli-wojewodztwa-opolskiego-ii-edycja.html
+Redirect 301 /konferencja-dla-nauczycieli-województwa-opolskiego-II-edycja.html /konferencja-dla-nauczycieli-wojewodztwa-opolskiego-ii-edycja.html
+
+<FilesMatch "\.(webp|svg|jpg|jpeg|png|gif|js|css)$"> 
+Header set Cache-Control "max-age=31536000, public"
+</FilesMatch>
+
+<FilesMatch ".pdf$">
+    FileETag None
+    <IfModule mod_headers.c>
+        Header unset ETag
+        Header set Cache-Control "max-age=0, no-cache, no-store, must-revalidate"
+        Header set Pragma "no-cache"
+        Header set Expires "Thu, 1 Jan 1970 05:00:00 GMT"
+    </IfModule>
+</FilesMatch>
+
+ErrorDocument 404 /404/index.html

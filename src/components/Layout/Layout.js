@@ -9,7 +9,7 @@ import Head from 'next/head'
 const Layout = ({ title, description, keywords, children }) => {
     const [navOpen, setNavOpen] = useState(false)
     return (
-        <div className={styles.pageWrapper}>
+        <div className={styles.pageWrapper} suppressHydrationWarning>
             <Head>
                 <meta charSet="UTF-8" />
                 <meta httpEquiv="X-UA-Compatible" content="IE=edge" />

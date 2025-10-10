@@ -4,7 +4,7 @@ export const slides = [
         image: '/assets/images/backgrounds/slider-1-1.jpeg',
         title: 'Stowarzyszenie',
         text: 'Aktywni na Rzecz Bezpiecznego Wypoczynku',
-        ctas: [{ label: 'Bezpiecznywypoczynek.pl', href: '#' }/*, { label: 'Wesprzyj', href: '/donate' }*/]
+        ctas: [{ label: 'Bezpiecznywypoczynek.pl', href: '#' }]
     },
     {
         id: 's2',
