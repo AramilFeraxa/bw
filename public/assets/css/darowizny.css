@@ -1,0 +1,62 @@
+.donation-box {
+position: relative;
+width: 1600px;
+}
+.donation-box p {
+    font-size: 1.3rem;
+    margin-top: 20px;
+}
+.donation-photo {
+    position: absolute;
+    right: -10px;
+    top: -150px;
+    z-index: -1;
+}
+.donation-photo img {
+    width: 75%;
+    height: auto;
+}
+.donation-desc {
+    text-align: center;
+    z-index: 1;
+    position: relative;
+    background-color: #df5311;
+    padding: 15px 0;
+    bottom: -120px;
+    color: #fff;
+    font-weight: 800;
+}
+.donation-desc h2 {
+    font-weight: 800;
+    font-size: 30px;
+}
+.darowizny-lista {
+    padding-bottom: 0px;
+}
+
+@media only screen and (max-width: 968px) {
+    .nav-darowizny {
+        text-align: center;
+    font-size: 1.5rem;
+    }
+    .donation-box {
+        width: auto;
+    }
+    .darowizny-lista {
+        padding-bottom: 95px;
+    }
+    .donation-photo {
+        position: absolute;
+        right: -150px;
+        top: 230px;
+        z-index: -1;
+    }
+    .donation-desc {
+        padding: 10px 0;
+        bottom: -85px;
+
+    }
+    .donation-desc h2 {
+        font-size: 20px;
+    }
+}

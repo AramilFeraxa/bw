@@ -1,0 +1,64 @@
+.kp {
+    margin: 4px 0 8px
+}
+
+.kpHeading {
+    margin: 0 0 8px;
+    font-weight: 800;
+    color: var(--paroti-heading, #0f172a)
+}
+
+.kpList {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: 14px
+}
+
+.kpItem {
+    display: grid;
+    grid-template-columns: 58px 1fr;
+    gap: 16px;
+    align-items: start;
+}
+
+.kpList li>i {
+    font-size: 20px;
+    color: var(--paroti-primary, #138999);
+    position: relative;
+    background-color: var(--paroti-gray, #f1f6f7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 58px;
+    height: 58px;
+    transition: all 500ms ease;
+}
+
+.kpList li:hover>i {
+    background-color: var(--paroti-primary, #138999);
+    color: var(--paroti-gray, #f1f6f7);
+}
+
+.kpIcon {
+    font-size: 25px;
+    color: var(--paroti-primary, #138999);
+    position: relative
+}
+
+.kpTitle {
+    font-weight: 800;
+    color: var(--paroti-black, #144047);
+    margin-bottom: 4px
+}
+
+.kpText {
+    margin: 0;
+    color: var(--paroti-text, #768385);
+    line-height: 1.8
+}
+
+.kp_numbers .kpIcon::after {
+    content: attr(data-index)
+}

@@ -1,0 +1,36 @@
+.nav__statut {
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 4em;
+}
+
+.chapter {
+    text-align: justify;
+    margin-top: 5em;
+    margin-bottom: 2em;
+}
+
+.par {
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        line-height: 1.7em;
+    }
+    .sec-pad-bottom {
+        padding-bottom: 0;
+    }
+    .sec-pad-top {
+        padding-top: 3.5rem;
+    }
+    .nav__statut {
+        margin-bottom: 0;
+    }
+    .chapter {
+            margin-top: 2em;
+            margin-bottom: 2em;
+    }
+}
