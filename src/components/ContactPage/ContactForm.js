@@ -22,7 +22,7 @@ export default function ContactForm() {
             setLoading(false)
             return
         }
-        const res = await fetch("/api/contact", {
+        const res = await fetch("/api/send-mail.php", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ name, email, message })
