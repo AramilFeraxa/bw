@@ -27,11 +27,11 @@ if (!$name || !$email || !$message || !filter_var($email, FILTER_VALIDATE_EMAIL)
     exit;
 }
 
-$smtpHost = getenv("SMTP_HOST");
-$smtpPort = getenv("SMTP_PORT");
-$smtpUser = getenv("SMTP_USER");
-$smtpPass = getenv("SMTP_PASS");
-$toEmail  = getenv("TO_EMAIL");
+$smtpHost = "jakubjedrzjb.nazwa.pl";
+$smtpPort = 465;
+$smtpUser = "kontakt@bezpiecznywypoczynek.pl";
+$smtpPass = "BezpiecznyWypoczynek!9!";
+$toEmail  = "kontakt@bezpiecznywypoczynek.pl";
 
 $subject = "$name wysłał wiadomość ze strony bezpiecznywypoczynek.pl";
 $text = "Imię: $name\nEmail: $email\n\nWiadomość:\n$message";
@@ -64,8 +64,10 @@ try {
     $mail->CharSet = 'UTF-8';
 
     $mail->setFrom($smtpUser, "$name przez Formularz");
+
     $mail->addAddress($toEmail);
-    $mail->addReplyTo($email);
+
+    $mail->addReplyTo($email, $name);
 
     $mail->isHTML(true);
     $mail->Subject = $subject;
