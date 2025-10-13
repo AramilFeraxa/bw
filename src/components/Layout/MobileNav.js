@@ -63,8 +63,7 @@ export default function MobileNav({ open = false, onClose = () => { } }) {
                         <li><i className="fa fa-envelope" /> <Link href="mailto:kontakt@bezpiecznywypoczynek.pl">kontakt@bezpiecznywypoczynek.pl</Link></li>
                     </ul>
                     <div className={styles.social}>
-                        <Link href="#" aria-label="facebook"><i className="fab fa-facebook-f" /></Link>
-                        <Link href="#" aria-label="instagram"><i className="fab fa-instagram" /></Link>
+                        <Link href="https://www.facebook.com/aktywninarzeczbezpiecznegowypoczynku" aria-label="facebook"><i className="fab fa-facebook-f" /></Link>
                     </div>
                 </div>
             </aside>

@@ -54,7 +54,7 @@ export default function Footer() {
                                 </ul>
                                 <div className={styles.widgetSocial}>
                                     <h3 className={styles.widgetTitle}>Znajdź nas na:</h3>
-                                    <a href="https://www.facebook.com/profile.php?id=YOUR_PROFILE_ID" target="_blank" rel="noopener noreferrer">
+                                    <a href="https://www.facebook.com/aktywninarzeczbezpiecznegowypoczynku" target="_blank" rel="noopener noreferrer">
                                         <i className="fab fa-facebook-square"></i>
                                     </a>
                                 </div>
