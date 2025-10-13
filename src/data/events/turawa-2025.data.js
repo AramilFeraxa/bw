@@ -23,13 +23,26 @@ const turawa2025 = {
         },
     ],
     intro: [
-        "W dniach 13–14 września nad Jez. Turawskim odbył się dwudniowy wyjazd integracyjno-szkoleniowy dla wolontariuszy i sympatyków naszego Stowarzyszenia. Spotkanie połączyło warsztaty z zakresu RODO i prawa turystycznego z zajęciami integracyjnymi, dzięki czemu uczestnicy pogłębili swoją wiedzę i zacieśnili więzi w społeczności.",
+        "W dniach 13–14 września nad Jeziorem Turawskim odbył się dwudniowy wyjazd integracyjno-szkoleniowy dla wolontariuszy i sympatyków naszego Stowarzyszenia. Spotkanie połączyło szkolenia z zakresu RODO i prawa turystycznego z zajęciami integracyjnymi, które sprzyjały budowaniu współpracy i zaufania w zespole.",
     ],
     sections: [
         {
             heading: "Cel wyjazdu",
             paragraphs: [
-                "Przygotowanie wolontariuszy do pełnienia funkcji edukacyjnych i organizacyjnych podczas naszych działań oraz stworzenie przestrzeni do wymiany doświadczeń i wspólnego planowania kolejnych inicjatyw. Dzięki temu budujemy silną, aktywną społeczność, gotową stawiać sobie nowe wyzwania i wzajemnie się wspierać.",
+                "Celem wyjazdu było przygotowanie wolontariuszy do działań edukacyjnych i organizacyjnych, a także stworzenie przestrzeni do wymiany doświadczeń i planowania kolejnych inicjatyw. Dzięki połączeniu nauki z integracją uczestnicy nie tylko poszerzyli swoją wiedzę, ale też umocnili więzi, które są fundamentem naszej społeczności.",
+            ],
+        },
+        {
+            heading: "Program wyjazdu",
+            paragraphs: [
+                "W ramach programu zorganizowano praktyczne warsztaty obejmujące m.in.:",
+                <ul>
+                    <li>ochronę danych osobowych (RODO),</li>
+                    <li>podstawy prawa turystycznego i konsumenckiego,</li>
+                    <li>prawo cywilne w NGO,</li>
+                    <li>prawo pracy i wolontariatu.</li>
+                </ul>,
+                "Zajęcia prowadzone w formule warsztatowej pozwoliły uczestnikom analizować rzeczywiste sytuacje, z jakimi mogą się spotkać podczas organizacji wyjazdów i pracy w organizacji.",
             ],
         },
         {

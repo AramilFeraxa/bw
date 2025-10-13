@@ -136,6 +136,55 @@
     font-weight: 700;
 }
 
+.sidebarAdditionalInfo {
+    margin-top: 18px;
+    padding-top: 18px;
+    border-top: 1px dashed #e6ebf3;
+}
+
+.sidebarInfo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background: var(--paroti-base);
+    border-radius: 8px;
+    padding: 10px 14px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    box-shadow: 0 4px 12px rgba(15, 23, 42, 0.06);
+    transition: all 0.2s ease;
+}
+
+.sidebarInfo i {
+    font-size: 18px;
+    width: 20px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.sidebarInfo .fileLink {
+    flex-grow: 1;
+    color: #fff;
+}
+
+.sidebarInfo .fileLink span {
+    color: #fff;
+    background: linear-gradient(currentColor, currentColor) 0 95% / 0 2px no-repeat;
+    text-decoration: none;
+    transition: background-size .45s, color .2s;
+}
+
+.sidebarInfo .fileLink span:hover {
+    background-size: 100% 2px;
+    color: #fff;
+}
+
+.sidebarInfo:hover {
+    box-shadow: 0 6px 16px rgba(15, 23, 42, 0.1);
+    transform: translateY(-2px);
+}
+
 @media (max-width: 991px) {
     .heroImg {
         height: 340px;

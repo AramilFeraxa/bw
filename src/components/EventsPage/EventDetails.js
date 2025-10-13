@@ -17,6 +17,7 @@ export default function EventDetails({ event }) {
         intro,
         sections,
         sidebar,
+        sidebarAdditionalInfo = [],
     } = event;
 
     return (
@@ -120,6 +121,21 @@ export default function EventDetails({ event }) {
                                         )}
                                     </ul>
                                 </div>
+                                {sidebarAdditionalInfo.length > 0 && (
+                                    <div className={styles.sidebarAdditionalInfo}>
+                                        {sidebarAdditionalInfo.map((info, i) => (
+                                            <div key={`info-${i}`} className={styles.sidebarInfo}>
+                                                {info.type === "text" && <p>{info.text}</p>}
+                                                {info.type === "file" && (
+                                                    <a href={info.href} className={styles.fileLink} target="_blank" rel="noopener">
+                                                        <i className={info.icon} aria-hidden="true" />
+                                                        <span>{info.label}</span>
+                                                    </a>
+                                                )}
+                                            </div>
+                                        ))}
+                                    </div>
+                                )}
                             </aside>
                         </div>
                     </div>

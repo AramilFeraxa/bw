@@ -56,6 +56,14 @@ const konferencjaBezpiecznyWypoczynekJesien2025 = {
             ],
         },
     ],
+    sidebarAdditionalInfo: [
+        {
+            type: "file",
+            label: "Plan konferencji (PDF)",
+            href: "/assets/plan konferencji Bezpieczny wypoczynek 10 2025.pdf",
+            icon: "fa fa-file-pdf",
+        }
+    ],
     sidebar: {
         organizer: "Moszna Zamek, Stowarzyszenie Aktywni na Rzecz Bezpiecznego Wypoczynku, Hugo Yorck",
         dateLabel: "Jesień 2025",
