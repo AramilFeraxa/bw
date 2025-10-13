@@ -1,23 +1,12 @@
 import Head from "next/head";
 import Layout from "@/components/Layout/Layout";
-import EventsGrid from "@/components/Events/EventsGrid";
+import EventsGrid from "@/components/EventsPage/EventsGrid";
 import { events } from "@/data/events";
 
 export default function WydarzeniaPage() {
     const pageTitle = "Wydarzenia na rzecz Bezpiecznego Wypoczynku";
     const pageDescription =
         "Dowiedz się więcej o naszych inicjatywach. Sprawdź wydarzenia w Twojej okolicy i dołącz do nas!";
-
-    const itemListJsonLd = {
-        "@context": "https://schema.org",
-        "@type": "ItemList",
-        "itemListElement": events.map((e, idx) => ({
-            "@type": "ListItem",
-            "position": idx + 1,
-            "url": `https://bezpiecznywypoczynek.pl${e.href}`,
-            "name": e.title
-        }))
-    };
 
     return (
         <Layout title={pageTitle} description={pageDescription}>

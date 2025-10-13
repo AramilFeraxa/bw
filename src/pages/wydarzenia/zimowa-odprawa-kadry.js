@@ -1,4 +1,4 @@
-import EventDetails from "@/components/Events/EventDetails";
+import EventDetails from "@/components/EventsPage/EventDetails";
 import Layout from "@/components/Layout/Layout";
 import data from "@/data/events/zimowa-odprawa-kadry.data";
 

@@ -1,7 +1,7 @@
 import { useEffect, useState, useMemo } from 'react'
 import Link from 'next/link'
 import styles from './SliderOne.module.css'
-import { slides as source } from '../../data/slides'
+import { slides as source } from '../../../data/slides'
 
 export default function SliderOne({ items }) {
     const data = useMemo(() => items || source, [items])

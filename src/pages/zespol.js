@@ -7,6 +7,7 @@ export default function ZespolPage() {
             <div className="page-header" style={{ backgroundImage: "url(/assets/images/backgrounds/zespol.jpg)" }}>
                 <div className="container">
                     <h2 className="page-header__title">Zespół</h2>
+                    <p className="page-header__subtitle">Poznaj osoby, które tworzą nasze Stowarzyszenie</p>
                 </div>
             </div>
             <TeamPage />

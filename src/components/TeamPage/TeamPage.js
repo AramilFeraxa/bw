@@ -5,10 +5,6 @@ export default function TeamPage() {
     return (
         <section className={`${styles.team} sec-pad-top sec-pad-bottom`}>
             <div className="container">
-                <div className="header">
-                    <h1 className="text-center">Poznaj Nasz Zespół</h1>
-                    <p className="text-center">Jesteśmy grupą pasjonatów dbających o bezpieczeństwo dzieci i młodzieży podczas wypoczynku.</p>
-                </div>
                 <div className="row gutter-y-30">
                     {teamMembers.map((m, i) => (
                         <div className="col-md-6 col-lg-4" key={i}>

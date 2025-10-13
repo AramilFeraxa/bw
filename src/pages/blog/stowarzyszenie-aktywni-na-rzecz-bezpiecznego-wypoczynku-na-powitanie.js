@@ -1,8 +1,8 @@
 import Head from "next/head";
 import Layout from "@/components/Layout/Layout";
-import ArticleShell from "@/components/Blog/BlogPost/ArticleShell";
-import ProseRenderer from "@/components/Blog/BlogPost/ProseRenderer";
-import TableOfContents from "@/components/Blog/BlogPost/TableOfContents";
+import ArticleShell from "@/components/BlogPage/BlogPost/ArticleShell";
+import ProseRenderer from "@/components/BlogPage/BlogPost/ProseRenderer";
+import TableOfContents from "@/components/BlogPage/BlogPost/TableOfContents";
 import { postStowarzyszenie } from "@/data/blog/stowarzyszenie-aktywni-na-rzecz-bezpiecznego-wypoczynku-na-powitanie.data";
 import { postsHomeTwo } from "@/data/blogMain";
 

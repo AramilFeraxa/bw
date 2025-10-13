@@ -1,11 +1,13 @@
 import Layout from "../components/Layout/Layout";
-import SliderOne from "../components/SliderOne/SliderOne";
-import AboutFour from "../components/About/AboutOne";
-import CTAOne from "../components/CTA/CTAOne";
-import AboutSix from "../components/About/AboutTwo";
-import CTAFour from "../components/CTA/CTAFour";
-import BlogHomeTwo from "../components/Blog/BlogHome";
-import CTAThree from "../components/CTA/CTAThree";
+import SliderOne from "../components/MainPage/SliderOne/SliderOne";
+import AboutFour from "../components/MainPage/About/AboutOne";
+import CTAOne from "../components/MainPage/CTA/CTAOne";
+import AboutSix from "../components/MainPage/About/AboutTwo";
+import CTAFour from "../components/MainPage/CTA/CTAFour";
+import BlogHomeTwo from "../components/BlogPage/BlogHome";
+import CTAThree from "../components/MainPage/CTA/CTAThree";
+import Counter from "@/components/MainPage/Counter/Counter";
+import Accordion from "@/components/MainPage/Accordion/Accordion";
 
 export default function HomePage() {
   return (
@@ -20,6 +22,13 @@ export default function HomePage() {
       <CTAFour />
       <BlogHomeTwo />
       <CTAThree />
+      {/*<Accordion items={[
+        {
+          title: "?",
+          content: "."
+        },
+      ]} />
+      <Counter end={1500} duration={3} className="custom-counter" />*/}
     </Layout>
   );
 }

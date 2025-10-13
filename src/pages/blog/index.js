@@ -1,4 +1,4 @@
-import BlogCard from "@/components/Blog/BlogCard";
+import BlogCard from "@/components/BlogPage/BlogCard";
 import Layout from "@/components/Layout/Layout";
 import { postsHomeTwo } from "@/data/blogMain";
 

@@ -4,10 +4,6 @@ export default function StatutePage() {
     return (
         <section className={`sec-pad-top sec-pad-bottom ${styles.statut}`}>
             <div className="container">
-                <div className="header">
-                    <h1>Statut Stowarzyszenia</h1>„Aktywni na rzecz Bezpiecznego Wypoczynku”
-                </div>
-
                 <div className={styles.chapter}>
                     <p className={styles.par}><strong>Rozdział I</strong><br /><span>Postanowienia ogólne</span></p>
                     <p className={styles.par}>§1</p>

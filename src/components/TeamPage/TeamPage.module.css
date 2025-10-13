@@ -6,29 +6,33 @@
     text-align: center;
     background: #fff;
     border-radius: 6px;
-    padding: 20px;
     transition: all 0.3s ease;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.card .image {
+    margin-left: 30px;
+    margin-right: 0;
+    margin-bottom: 0;
 }
 
 .card:hover {
     transform: translateY(-5px);
 }
 
-.image {
-    margin: 20px 0;
-}
-
-.image img {
+.card .image img {
     width: 100%;
-    border-radius: 6px;
+    border-top-left-radius: 6px;
 }
 
 .title {
     font-size: 20px;
     font-weight: 800;
     margin: 0;
-    color: var(--paroti-black, #144047);
+    color: white;
 }
 
 .title a {
@@ -37,21 +41,22 @@
 
 .role {
     font-size: 15px;
-    color: var(--paroti-text, #768385);
+    color: white;
+    opacity: 0.8;
 }
 
 .prezes {
-    background: #fde9d9;
+    background: var(--paroti-primary, #138999);
 }
 
 .komisja {
-    background: #e8f3fc;
+    background: var(--paroti-base, #df5311);
 }
 
 .czlonek {
-    background: #d1ecb6;
+    background: var(--paroti-secondary, #fdbe44);
 }
 
 .wolontariusz {
-    background: #ffd9f1;
+    background: var(--paroti-tertiary, #8139e7);
 }
