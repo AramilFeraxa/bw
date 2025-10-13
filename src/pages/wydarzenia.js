@@ -10,14 +10,6 @@ export default function WydarzeniaPage() {
 
     return (
         <Layout title={pageTitle} description={pageDescription}>
-            <Head>
-                <link rel="canonical" href="https://bezpiecznywypoczynek.pl/wydarzenia" />
-                <script
-                    type="application/ld+json"
-                    dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListJsonLd) }}
-                />
-            </Head>
-
             <section
                 className="page-header"
                 style={{ backgroundImage: "url(/assets/images/backgrounds/wydarzenia-header.jpg)" }}
