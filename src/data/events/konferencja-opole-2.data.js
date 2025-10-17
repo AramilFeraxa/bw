@@ -36,7 +36,7 @@ const konferencjaBezpiecznyWypoczynekJesien2025 = {
             heading: "Udział i rejestracja",
             paragraphs: [
                 <>Udział w konferencji jest <strong>bezpłatny</strong>; zapewniamy <strong>obiad</strong>, <strong>serwis kawowy</strong> oraz <strong>materiały szkoleniowe</strong>. Liczba miejsc ograniczona – maksymalnie <strong>2 reprezentantów</strong> z jednej placówki.</>,
-                <><strong>Zgłoszenia przyjmujemy do 17.10.2025</strong> poprzez formularz:</>,
+                <><strong>Zgłoszenia przyjmujemy do 20.10.2025</strong> poprzez formularz:</>,
                 <a class="thm-btn thm-btn--two" href="https://forms.gle/H1dcLRT25rUGbg8v6" target="_blank" rel="noopener"><span>Formularz zgłoszeniowy</span></a>,
                 <>Każdy uczestnik otrzyma <strong>imienny certyfikat</strong> uczestnictwa.</>
             ],
