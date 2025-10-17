@@ -16,6 +16,7 @@ pipelines:
             - apt-get update && apt-get install -y zip
             - npm install --legacy-peer-deps
             - npm run build
+            - cp public/.htaccess out/.htaccess
             - zip -r out.zip out
           artifacts:
             - out.zip
@@ -37,7 +38,7 @@ pipelines:
                 variables:
                   SSH_USER: $REMOTE_USER
                   SERVER: $REMOTE_SERVER
-                  COMMAND: 'unzip -o bitbucket-artifact-bw/out.zip && rm -r bezpiecznywypoczynek_new/* && cp -r out/* bezpiecznywypoczynek_new && rm -r bitbucket-artifact-bw && rm -r out && cd bezpiecznywypoczynek_new && nodecli restart'
+                  COMMAND: 'unzip -o bitbucket-artifact-bw/out.zip && rm -r bezpiecznywypoczynek_new/.[!.]*  bezpiecznywypoczynek_new/* || true && cp -r out/. bezpiecznywypoczynek_new && rm -r bitbucket-artifact-bw && rm -r out && cd bezpiecznywypoczynek_new && nodecli restart'
   default:
     - step:
         name: Build
