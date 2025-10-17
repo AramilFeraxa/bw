@@ -1,0 +1,107 @@
+.card {
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    box-shadow: 0 10px 60px rgba(0, 0, 0, .05);
+    transition: transform .3s ease, box-shadow .3s ease;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 16px 80px rgba(0, 0, 0, .1);
+}
+
+.content {
+    flex: 1;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.meta {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #768385;
+}
+
+.authorImg {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.5em;
+    margin: 0 0 12px;
+    color: var(--paroti-black, #144047);
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    padding-bottom: 6px;
+}
+
+.title a {
+    color: inherit;
+    text-decoration: none;
+    background: linear-gradient(currentcolor, currentcolor) 0 95%/0 2px no-repeat;
+    transition: background-size .45s ease, color .2s ease;
+}
+
+.title a:hover {
+    background-size: 100% 2px;
+}
+
+.text {
+    color: var(--paroti-text, #768385);
+    font-size: 15px;
+    line-height: 1.7;
+    margin: 0 0 18px;
+}
+
+.link {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-weight: 700;
+    font-size: 14px;
+    color: var(--paroti-secondary, #fdbe44);
+}
+
+.imageWrapper {
+    position: relative;
+    flex: 0 0 40%;
+}
+
+.imageWrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.date {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: #fd5d14;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 8px 12px;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+
+.date span {
+    display: block;
+    font-size: 18px;
+}
+
+.author i {
+    margin-right: 6px;
+    color: var(--paroti-secondary, #fdbe44);
+}

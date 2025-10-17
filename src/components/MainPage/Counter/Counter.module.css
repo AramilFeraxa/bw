@@ -1,0 +1,7 @@
+.countText {
+    margin: 0;
+    color: var(--paroti-black, #144047);
+    letter-spacing: -0.04em;
+    font-weight: 800;
+    line-height: 1;
+}

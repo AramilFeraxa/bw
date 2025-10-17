@@ -1,0 +1,8 @@
+Options +FollowSymLinks
+RewriteEngine On
+RewriteBase /
+
+Redirect 301 /konferencja-dla-nauczycieli-województwa-opolskiego-II-edycja /wydarzenia/konferencja-dla-nauczycieli-wojewodztwa-opolskiego-II-edycja
+Redirect 301 /konferencja-dla-nauczycieli-wojew%C3%B3dztwa-opolskiego-II-edycja /wydarzenia/konferencja-dla-nauczycieli-wojewodztwa-opolskiego-II-edycja
+
+ErrorDocument 404 /404/index.html

@@ -1,0 +1,70 @@
+.ctaOne {
+    background-color: var(--paroti-black, #144047);
+    position: relative;
+    overflow: hidden;
+    padding-top: 7.5rem;
+    padding-bottom: 7.5rem;
+}
+
+.bg {
+    position: absolute;
+    inset: 0;
+    background-color: black;
+    opacity: 0.3;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    z-index: 0;
+}
+
+.shape {
+    position: absolute;
+    inset: 0;
+    background-position: top left;
+    background-repeat: no-repeat;
+    display: none;
+    z-index: 0;
+}
+
+@media (min-width: 992px) {
+    .shape {
+        display: block;
+    }
+}
+
+.ctaOne :global(.container) {
+    position: relative;
+    z-index: 1;
+}
+
+.ctaOne :global(.sec-title) {
+    padding-bottom: 40px;
+}
+
+.ctaOne :global(.sec-title__tagline) {
+    color: #ffffff;
+    opacity: 0.7;
+    margin-bottom: 22px;
+}
+
+.ctaOne :global(.sec-title__tagline::after) {
+    display: none;
+}
+
+@media (min-width: 992px) {
+    .ctaOne :global(.sec-title__tagline) {
+        font-size: 20px;
+    }
+}
+
+.ctaOne :global(.sec-title__title) {
+    color: #ffffff;
+}
+
+.ctaOne :global(.sec-title__title) span {
+    position: relative;
+}
+
+.btn {
+    margin-bottom: -10px;
+}
