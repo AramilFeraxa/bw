@@ -8,27 +8,8 @@ export default function WydarzeniaPage() {
     const pageDescription =
         "Dowiedz się więcej o naszych inicjatywach. Sprawdź wydarzenia w Twojej okolicy i dołącz do nas!";
 
-    const itemListJsonLd = {
-        "@context": "https://schema.org",
-        "@type": "ItemList",
-        "itemListElement": events.map((e, idx) => ({
-            "@type": "ListItem",
-            "position": idx + 1,
-            "url": `https://bezpiecznywypoczynek.pl${e.href}`,
-            "name": e.title
-        }))
-    };
-
     return (
         <Layout title={pageTitle} description={pageDescription}>
-            <Head>
-                <link rel="canonical" href="https://bezpiecznywypoczynek.pl/wydarzenia" />
-                <script
-                    type="application/ld+json"
-                    dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListJsonLd) }}
-                />
-            </Head>
-
             <section
                 className="page-header"
                 style={{ backgroundImage: "url(/assets/images/backgrounds/wydarzenia-header.jpg)" }}

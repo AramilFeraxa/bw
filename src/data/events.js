@@ -1,5 +1,14 @@
 export const events = [
     {
+        slug: "bieg-belfra",
+        title: "Sportowa energia i nauczycielska pasja w Grodkowie",
+        date: "18.10.2025",
+        location: "Grodków",
+        category: "wydarzenie",
+        image: "/assets/images/events/bieg belfra 6.jpg",
+        href: "/wydarzenia/bieg-belfra"
+    },
+    {
         slug: "konferencja-dla-nauczycieli-wojewodztwa-opolskiego-II-edycja",
         title: "Konferencja dla nauczycieli województwa opolskiego – II edycja",
         date: "Jesień 2025",
