@@ -321,7 +321,7 @@ h6 {
 }
 
 .thm-btn--light:hover {
-  color: var(--paroti-black, #144047);
+  color: var(--paroti-black, #144047) !important;
 }
 
 .sec-title {

@@ -8,7 +8,6 @@ const wiezeOsobliwosci2025 = {
     date: "03.05.2025",
     endDate: "04.05.2025",
     location: "Zamek Moszna",
-    category: "konsultacje",
     heroImage: "/assets/images/backgrounds/konsultacje-Zamek-Moszna-2025.jpg",
     intro: [
         "Tegoroczna edycja targów w Mosznej pokazała, że świadomość rodziców rośnie lawinowo. Jeszcze rok temu dominował temat „dokąd wysłać dziecko”, teraz najdłuższe kolejki ustawiały się do naszego punktu konsultacyjnego z pytaniem: „Po czym poznać rzetelnego organizatora kolonii?”. W ciągu czterech dni obsłużyliśmy ponad 100 rozmów, z czego blisko 60% dotyczyło właśnie weryfikacji firm.",

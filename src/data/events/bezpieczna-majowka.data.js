@@ -7,7 +7,6 @@ const bezpiecznaMajowka2024 = {
     date: "01.05.2024",
     endDate: "03.05.2024",
     location: "Zamek Czocha",
-    category: "konsultacje",
     heroImage: "/assets/images/backgrounds/konsultacje-bezpieczny-wypoczynek-Czocha-2024.jpg",
 
     images: [],
@@ -21,18 +20,19 @@ const bezpiecznaMajowka2024 = {
         {
             heading: "O jakich ryzykach rozmawiamy?",
             paragraphs: [
-                "<strong>Nowe środowisko i brak stałej opieki rodzica</strong><br />Nieznane łazienki, piętrowe łóżka, ewakuacyjne korytarze – wszystko to może sprzyjać urazom i dezorientacji. Konsultanci tłumaczą, jak nauczyciele powinni prowadzić „tour bezpieczeństwa” pierwszego dnia i dlaczego liczenie uczestników po każdym bloku zajęć jest krytyczne.",
-                "<strong>Relacje rówieśnicze bez filtra dorosłych</strong><br />Pod wspólnym dachem pojawiają się konflikty, wykluczenie, a czasem przemoc psychiczna. Wyjaśniamy, kiedy „zwykła sprzeczka” staje się sygnałem alarmowym i jakie procedury musi mieć wychowawca, by chronić ofiarę i nie ignorować sprawcy.",
-                "<strong>Kontakt z obcymi i zagrożenia internetowe</strong><br />Wycieczki krajoznawcze oznaczają tłum, a smartfon w kieszeni – ryzyko cyberprzemocy. Podpowiadamy rodzicom, jak sprawdzić, czy opiekunowie stosują depozyt telefonów, mają listę „zakazanych aplikacji” i ustalone zasady publikacji zdjęć dzieci.",
-                "<strong>Aktywności wymagające sprzętu</strong><br />Łuki, żeglarstwo, górskie szlaki – dodatkowa adrenalina to także wymóg dodatkowych kwalifikacji kadry. Pokażemy, jakie certyfikaty powinien posiadać instruktor i jak rozpoznać, czy organizator zapewnia sprzęt z aktualnymi atestami.",
-                "<strong>Zdrowie i opieka medyczna</strong><br />Alergie, choroby przewlekłe, leki przechowywane w pokoju – konsultanci uczą, jak czytać kartę kwalifikacyjną i dlaczego rodzic musi znać procedurę „SOS”: kto, kiedy i w jaki sposób wezwie pomoc, gdy dziecko zacznie się dusić lub zwichnie kostkę.",
+                <><strong>Nowe środowisko i brak stałej opieki rodzica</strong><br />Nieznane łazienki, piętrowe łóżka, ewakuacyjne korytarze – wszystko to może sprzyjać urazom i dezorientacji. Konsultanci tłumaczą, jak nauczyciele powinni prowadzić „tour bezpieczeństwa” pierwszego dnia i dlaczego liczenie uczestników po każdym bloku zajęć jest krytyczne.</>,
+                <><strong>Relacje rówieśnicze bez filtra dorosłych</strong><br />Pod wspólnym dachem pojawiają się konflikty, wykluczenie, a czasem przemoc psychiczna. Wyjaśniamy, kiedy „zwykła sprzeczka” staje się sygnałem alarmowym i jakie procedury musi mieć wychowawca, by chronić ofiarę i nie ignorować sprawcy.</>,
+                <><strong>Relacje rówieśnicze bez filtra dorosłych</strong><br />Pod wspólnym dachem pojawiają się konflikty, wykluczenie, a czasem przemoc psychiczna. Wyjaśniamy, kiedy „zwykła sprzeczka” staje się sygnałem alarmowym i jakie procedury musi mieć wychowawca, by chronić ofiarę i nie ignorować sprawcy.</>,
+                <><strong>Kontakt z obcymi i zagrożenia internetowe</strong><br />Wycieczki krajoznawcze oznaczają tłum, a smartfon w kieszeni – ryzyko cyberprzemocy. Podpowiadamy rodzicom, jak sprawdzić, czy opiekunowie stosują depozyt telefonów, mają listę „zakazanych aplikacji” i ustalone zasady publikacji zdjęć dzieci.</>,
+                <><strong>Aktywności wymagające sprzętu</strong><br />Łuki, żeglarstwo, górskie szlaki – dodatkowa adrenalina to także wymóg dodatkowych kwalifikacji kadry. Pokażemy, jakie certyfikaty powinien posiadać instruktor i jak rozpoznać, czy organizator zapewnia sprzęt z aktualnymi atestami.</>,
+                <><strong>Zdrowie i opieka medyczna</strong><br />Alergie, choroby przewlekłe, leki przechowywane w pokoju – konsultanci uczą, jak czytać kartę kwalifikacyjną i dlaczego rodzic musi znać procedurę „SOS”: kto, kiedy i w jaki sposób wezwie pomoc, gdy dziecko zacznie się dusić lub zwichnie kostkę.</>,
             ],
         },
         {
             heading: "Jak skorzystać?",
             paragraphs: [
                 "Przyjdź, zadaj pytanie ustnie lub zapisz je na arkuszu – pełną odpowiedź odeślemy e-mailem. Rozwiejemy wątpliwości:",
-                "<ul><li>Czy moje dziecko jest psychicznie gotowe na pierwszy nocleg poza domem?</li><li>Jak sprawdzić, czy wychowawca ma przeszkolenie z pierwszej pomocy?</li><li>Kiedy telefon staje się zagrożeniem zamiast „linii ratunkowej”?</li></ul>",
+                <ul><li>Czy moje dziecko jest psychicznie gotowe na pierwszy nocleg poza domem?</li><li>Jak sprawdzić, czy wychowawca ma przeszkolenie z pierwszej pomocy?</li><li>Kiedy telefon staje się zagrożeniem zamiast „linii ratunkowej”?</li></ul>,
             ],
         },
         {
@@ -46,12 +46,7 @@ const bezpiecznaMajowka2024 = {
     ],
 
     sidebar: {
-        organizer: <>Stowarzyszenie „Aktywni na Rzecz Bezpiecznego Wypoczynku”</>,
-        topics: [
-            "bezpieczne wyjazdy z noclegiem",
-            "konsultacje dla rodziców",
-            "bezpieczeństwo dzieci podczas kolonii",
-        ],
+        organizer: <>Stowarzyszenie „Aktywni na Rzecz Bezpiecznego Wypoczynku"</>,
         audience: "Rodzice, nauczyciele i opiekunowie dzieci w wieku szkolnym",
         coordinator: "Paweł Kińczyk",
     },

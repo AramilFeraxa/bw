@@ -9,7 +9,6 @@ const jesiennyPiknikEdukacyjny2025 = {
     date: "20.09.2025",
     endDate: "20.09.2025",
     location: "Katowice",
-    category: "integracja",
     heroImage:
         "/assets/images/events/bezpieczny wypoczynek razem.jpg",
     images: [
@@ -34,7 +33,6 @@ const jesiennyPiknikEdukacyjny2025 = {
     sidebar: {
         organizer: "Hugo Yorck",
         dateLabel: "20 września 2025 r.",
-        topics: ["bezpieczny wypoczynek", "integracja wolontariuszy", "edukacja", "wymiana doświadczeń"],
         audience: "Wolontariusze i partnerzy Stowarzyszenia",
     },
 };

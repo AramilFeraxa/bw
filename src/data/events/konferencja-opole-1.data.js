@@ -7,7 +7,6 @@ const konferencjaOpole2025 = {
     date: "24.06.2025",
     endDate: "",
     location: "Zamek Moszna",
-    category: "konferencja",
     heroImage:
         "/assets/images/events/spotkanie-nauczycieli-Zamek-Moszna-czerwiec-2025-bezpieczny-wypoczynek.jpg",
 
@@ -70,14 +69,12 @@ const konferencjaOpole2025 = {
     ],
 
     sidebar: {
-        organizer:
-            <>Moszna Zamek;<br />Stowarzyszenie Aktywni na Rzecz Bezpiecznego Wypoczynku;<br />Hugo Yorck</>,
-        dateLabel: "24 czerwca 2025 r.",
-        topics: [
-            "pierwsza pomoc psychiczna",
-            "Standardy Ochrony Małoletnich",
-            "programy wyjazdowe",
+        organizer: [
+            "Moszna Zamek",
+            "Stowarzyszenie Aktywni na Rzecz Bezpiecznego Wypoczynku",
+            "Hugo Yorck"
         ],
+        dateLabel: "24 czerwca 2025 r.",
         audience: "Nauczyciele i kadra wychowawcza woj. opolskiego",
         price: "Udział bezpłatny",
         coordinator: "Jakub Jędrzejak, tel. 607 271 787",

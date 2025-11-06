@@ -6,7 +6,6 @@ const podsumowanieSezonu2024 = {
     date: "14.09.2024",
     endDate: "",
     location: "Turawa",
-    category: "spotkanie",
     heroImage: "/assets/images/backgrounds/podsumowanie-sezonu-2024.jpg",
 
     images: [],
@@ -42,11 +41,6 @@ const podsumowanieSezonu2024 = {
     sidebar: {
         organizer: <>Stowarzyszenie „Aktywni na Rzecz Bezpiecznego Wypoczynku”</>,
         dateLabel: "14 września 2024 r.",
-        topics: [
-            "Standardy Ochrony Małoletnich",
-            "bezpieczny wypoczynek",
-            "podsumowanie sezonu 2024",
-        ],
         audience: "Kierownicy, wychowawcy i animatorzy – członkowie Stowarzyszenia",
         price: "Bezpłatne",
         coordinator: "Joanna Knopik",

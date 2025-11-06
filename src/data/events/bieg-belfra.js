@@ -7,7 +7,6 @@ const konferencjaOpole2025 = {
     date: "18.10.2025",
     endDate: "",
     location: "Grodków",
-    category: "wydarzenie",
     heroImage:
         "/assets/images/events/bieg belfra 6.jpg",
 
@@ -47,11 +46,6 @@ const konferencjaOpole2025 = {
     sidebar: {
         organizer: "-",
         dateLabel: "18 października 2025 r.",
-        topics: [
-            "Integracja środowiska nauczycielskiego",
-            "Promocja aktywności fizycznej wśród nauczycieli",
-            "Wymiana doświadczeń i dobrych praktyk w edukacji"
-        ],
         audience: "Nauczyciele i kadra wychowawcza woj. opolskiego",
     },
 };

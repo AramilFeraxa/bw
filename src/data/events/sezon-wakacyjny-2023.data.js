@@ -7,7 +7,6 @@ const podsumowanieSezonu2023 = {
     date: "16.09.2023",
     endDate: "16.09.2023",
     location: "Turawa",
-    category: "podsumowanie",
     heroImage: "/assets/images/backgrounds/podsumowanie-sezonu-2023.jpg",
     images: [],
     intro: [
@@ -39,7 +38,6 @@ const podsumowanieSezonu2023 = {
     sidebar: {
         organizer: "Stowarzyszenie „Aktywni na Rzecz Bezpiecznego Wypoczynku”",
         coordinator: "Donata Bułatek-Wypiór",
-        topics: ["bezpieczny wypoczynek", "podsumowanie sezonu", "trendy w turystyce", "ankiety", "ferie zimowe"],
         audience: "Kadra kierownicza i wychowawcza, konsultanci",
     }
 };

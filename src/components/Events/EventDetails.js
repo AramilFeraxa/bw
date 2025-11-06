@@ -17,6 +17,7 @@ export default function EventDetails({ event }) {
         intro,
         sections,
         sidebar,
+        sidebarAdditionalInfo = [],
     } = event;
 
     return (
@@ -40,7 +41,7 @@ export default function EventDetails({ event }) {
                     <div className="row gutter-y-60">
                         <div className="col-lg-8">
                             <div className={styles.content}>
-                                <h1 className={`${styles.title} blog-card__title`}>{title}</h1>
+                                <h1 className={styles.title}>{title}</h1>
 
                                 {intro?.length > 0 &&
                                     intro.map((p, i) => (
@@ -57,7 +58,7 @@ export default function EventDetails({ event }) {
 
                                 {sections?.map((sec, i) => (
                                     <div key={`sec-${i}`} className={styles.section}>
-                                        {sec.heading && <h4 className={styles.h4}>{sec.heading}</h4>}
+                                        {sec.heading && <h2 className={styles.h2}>{sec.heading}</h2>}
                                         {sec.paragraphs?.map((p, j) => (
                                             <div key={`sec-${i}-p-${j}`} className={styles.p}>
                                                 {p}
@@ -77,11 +78,21 @@ export default function EventDetails({ event }) {
                         <div className="col-lg-4">
                             <aside className={styles.sidebar}>
                                 <div className={styles.sidebarCard}>
-                                    <h4 className={styles.sidebarTitle}>Informacje w pigułce</h4>
+                                    <h3 className={styles.sidebarTitle}>Informacje w pigułce</h3>
                                     <ul className={styles.kvList}>
                                         <li>
                                             <span>Organizator</span>
-                                            <strong>{sidebar.organizer}</strong>
+                                            <strong>
+                                                {Array.isArray(sidebar.organizer) ? (
+                                                    <>
+                                                        {sidebar.organizer.map((org, idx) => (
+                                                            <div key={idx}>• {org}</div>
+                                                        ))}
+                                                    </>
+                                                ) : (
+                                                    sidebar.organizer
+                                                )}
+                                            </strong>
                                         </li>
                                         {sidebar?.coordinator && (
                                             <li>
@@ -120,6 +131,21 @@ export default function EventDetails({ event }) {
                                         )}
                                     </ul>
                                 </div>
+                                {sidebarAdditionalInfo.length > 0 && (
+                                    <div className={styles.sidebarAdditionalInfo}>
+                                        {sidebarAdditionalInfo.map((info, i) => (
+                                            <div key={`info-${i}`} className={styles.sidebarInfo}>
+                                                {info.type === "text" && <p>{info.text}</p>}
+                                                {info.type === "file" && (
+                                                    <a href={info.href} className={styles.fileLink} target="_blank" rel="noopener">
+                                                        <i className={info.icon} aria-hidden="true" />
+                                                        <span>{info.label}</span>
+                                                    </a>
+                                                )}
+                                            </div>
+                                        ))}
+                                    </div>
+                                )}
                             </aside>
                         </div>
                     </div>

@@ -7,7 +7,6 @@ const odblaskiFerie2023 = {
     date: "01.02.2023",
     endDate: "25.02.2023",
     location: "Zamek Czocha, Zamek Moszna, Pałac Witaszyce",
-    category: "akcja społeczna",
     heroImage: "/assets/images/events/ferie-zbiorka-hero.jpg",
 
     images: [],
@@ -38,12 +37,6 @@ const odblaskiFerie2023 = {
 
     sidebar: {
         organizer: <>Stowarzyszenie „Aktywni na Rzecz Bezpiecznego Wypoczynku”</>,
-        topics: [
-            "odblaski",
-            "bezpieczne ferie",
-            "akcja społeczna",
-            "świadomość bezpieczeństwa",
-        ],
         audience: "Dzieci, młodzież i opiekunowie uczestniczący w zimowiskach",
         price: "Zbiórka charytatywna",
         coordinator: <>Michał Wieczorek, tel. <a href="tel:+48604085583">604 085 583</a></>,

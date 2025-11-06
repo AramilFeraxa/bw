@@ -70,7 +70,7 @@ export default function ProjectsDetailsPage({ project }) {
                                     )}
                                 </div>
 
-                                <h3 className={styles.donationsCardTitle}>{title}</h3>
+                                <h1 className={styles.donationsCardTitle}>{title}</h1>
                                 {subtitle && <h4 className={styles.subtitle}>{subtitle}</h4>}
 
                                 <div className={styles.donationsDetailsContent}>
@@ -81,7 +81,7 @@ export default function ProjectsDetailsPage({ project }) {
                                     {sections?.map((section, i) => (
                                         <Fragment key={`section-${i}`}>
                                             {section.heading && (
-                                                <h3 className={styles.donationsCardTitle}>{section.heading}</h3>
+                                                <h2 className={styles.donationsCardTitle}>{section.heading}</h2>
                                             )}
                                             {section.paragraphs?.map((p, j) => (
                                                 <p key={`section-${i}-p-${j}`}>{p}</p>
@@ -101,7 +101,7 @@ export default function ProjectsDetailsPage({ project }) {
 
                                     {results && (
                                         <>
-                                            <h3 className={styles.donationsCardTitle}>{results.heading}</h3>
+                                            <h2 className={styles.donationsCardTitle}>{results.heading}</h2>
                                             <ul className={`list-unstyled ${styles.donationsDetailsList}`}>
                                                 {results.items?.map((item, i) => (
                                                     <li key={`result-${i}`}>

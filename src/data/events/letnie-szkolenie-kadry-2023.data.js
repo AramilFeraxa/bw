@@ -7,7 +7,6 @@ const akademiaArcymistrzow2023 = {
     date: "11.06.2023",
     endDate: "",
     location: "Pałac Witaszyce",
-    category: "szkolenie",
     heroImage: "/assets/images/events/akademia-arcymistrzow-hero.jpg",
 
     images: [],
@@ -39,11 +38,6 @@ const akademiaArcymistrzow2023 = {
 
     sidebar: {
         organizer: <>Stowarzyszenie „Aktywni na Rzecz Bezpiecznego Wypoczynku”</>,
-        topics: [
-            "szkolenie wychowawców kolonijnych",
-            "bezpieczny wypoczynek",
-            "opieka nad dziećmi i młodzieżą",
-        ],
         audience: "Wychowawcy kolonii, kierownicy, kadra wypoczynku",
         coordinator: <>Jakub Jędrzejak, tel. <a href="tel:+48607271787">607 271 787</a></>,
     },

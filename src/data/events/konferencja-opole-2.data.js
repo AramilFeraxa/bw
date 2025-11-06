@@ -9,7 +9,6 @@ const konferencjaBezpiecznyWypoczynekJesien2025 = {
     date: "Jesień 2025",
     endDate: "",
     location: "Zamek Moszna",
-    category: "konferencja",
     heroImage:
         "/assets/images/events/konferencja bezpieczny wypoczynek czeriwec 2025 zamek moszna 1.jpg",
     images: [
@@ -63,9 +62,12 @@ const konferencjaBezpiecznyWypoczynekJesien2025 = {
         },
     ],
     sidebar: {
-        organizer: "Moszna Zamek, Stowarzyszenie Aktywni na Rzecz Bezpiecznego Wypoczynku, Hugo Yorck",
+        organizer: [
+            "Moszna Zamek",
+            "Stowarzyszenie Aktywni na Rzecz Bezpiecznego Wypoczynku",
+            "Hugo Yorck"
+        ],
         dateLabel: "Jesień 2025",
-        topics: ["pierwsza pomoc psychiczna", "sygnały kryzysowe", "Standardy Ochrony Małoletnich", "zwiedzanie Zamku Moszna"],
         audience: "Nauczyciele i wychowawcy województwa opolskiego",
     },
 };

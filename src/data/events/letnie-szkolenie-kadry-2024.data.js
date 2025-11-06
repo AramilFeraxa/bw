@@ -7,7 +7,6 @@ const szkolenieLetnie2024 = {
     date: "08.06.2024",
     endDate: "09.06.2024",
     location: "Pałac w Witaszycach",
-    category: "szkolenie",
     heroImage: "/assets/images/backgrounds/szkolenie-letnie-bezpieczny-wypoczynek-2024.jpg",
 
     images: [],
@@ -57,12 +56,6 @@ const szkolenieLetnie2024 = {
 
     sidebar: {
         organizer: <>Stowarzyszenie „Aktywni na Rzecz Bezpiecznego Wypoczynku”</>,
-        topics: [
-            "bezpieczeństwo dzieci i młodzieży",
-            "szkolenie kadry wypoczynku",
-            "integracja zespołu",
-            "procedury bezpieczeństwa",
-        ],
         audience: "Kierownicy, wychowawcy i instruktorzy kolonii i obozów",
         coordinator: "Jakub Jędrzejak",
     },

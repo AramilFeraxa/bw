@@ -7,7 +7,6 @@ const aktywniPodsumowanie2024 = {
     date: "22.11.2024",
     endDate: "",
     location: "Zamek Moszna",
-    category: "sprawozdanie",
     heroImage: "/assets/images/backgrounds/sprawozdanie-bezpieczny-wypoczynek-2022-2024-nowe-władze.jpg",
 
     images: [],
@@ -54,11 +53,6 @@ const aktywniPodsumowanie2024 = {
     sidebar: {
         organizer: <>Stowarzyszenie „Aktywni na Rzecz Bezpiecznego Wypoczynku”</>,
         dateLabel: "22 listopada 2024 r.",
-        topics: [
-            "podsumowanie działalności",
-            "działalność stowarzyszenia",
-            "nowe władze i plany na 2025 rok",
-        ],
         audience: "Członkowie Stowarzyszenia, partnerzy, współpracownicy",
         coordinator: "Jakub Jędrzejak",
     },

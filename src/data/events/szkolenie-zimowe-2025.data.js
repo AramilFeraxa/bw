@@ -7,7 +7,6 @@ const szkolenieZimowe2025 = {
     date: "03.01.2025",
     endDate: "05.01.2025",
     location: "Pałac w Witaszycach",
-    category: "szkolenie",
     heroImage: "/assets/images/backgrounds/szkolenie-zimowe-2024-bezpieczny-wypoczynek.jpg",
     images: [],
     intro: [
@@ -38,7 +37,6 @@ const szkolenieZimowe2025 = {
     sidebar: {
         organizer: "Stowarzyszenie „Aktywni na Rzecz Bezpiecznego Wypoczynku”",
         coordinator: "Paulina Mazurek",
-        topics: ["bezpieczny wypoczynek", "szkolenie kadry", "przepisy prawne", "pierwsza pomoc", "ferie zimowe"],
         audience: "Kadra kierownicza i wychowawcza",
     }
 };

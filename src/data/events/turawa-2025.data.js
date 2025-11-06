@@ -9,7 +9,6 @@ const turawa2025 = {
     date: "13.09.2025",
     endDate: "14.09.2025",
     location: "Jezioro Turawskie",
-    category: "szkolenie",
     heroImage:
         "/assets/images/events/Turawa 2025 spotkanie wolontariuszy Aktywni na Rzecz Bezpiecznego Wypoczunku - szkolenie.jpg",
     images: [
@@ -48,7 +47,6 @@ const turawa2025 = {
     sidebar: {
         organizer: "Stowarzyszenie „Aktywni na Rzecz Bezpiecznego Wypoczynku”",
         dateLabel: "13–14 września 2025 r.",
-        topics: ["RODO", "prawo turystyczne", "integracja wolontariuszy"],
         audience: "Wolontariusze i sympatycy Stowarzyszenia",
     },
 };

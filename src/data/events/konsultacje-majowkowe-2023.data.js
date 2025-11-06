@@ -7,7 +7,6 @@ const konsultacjeMajowkowe2023 = {
     date: "01.05.2023",
     endDate: "03.05.2023",
     location: "Zamek Moszna, Zamek Czocha",
-    category: "konsultacje",
     heroImage: "/assets/images/events/konsultacje-majowkowe-hero.jpg",
 
     images: [],
@@ -39,11 +38,6 @@ const konsultacjeMajowkowe2023 = {
 
     sidebar: {
         organizer: <>Stowarzyszenie „Aktywni na Rzecz Bezpiecznego Wypoczynku”</>,
-        topics: [
-            "bezpieczne wakacje",
-            "konsultacje dla rodziców",
-            "organizacja kolonii i obozów",
-        ],
         audience: "Rodzice, opiekunowie i organizatorzy wypoczynku dzieci i młodzieży",
         coordinator: <>Jakub Jędrzejak, tel. <a href="tel:+48607271787">607 271 787</a></>,
     },

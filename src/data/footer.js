@@ -12,7 +12,7 @@ export const footerData = {
         { href: "/blog/stowarzyszenie-aktywni-na-rzecz-bezpiecznego-wypoczynku-na-powitanie", label: "Poznajcie nasze Stowarzyszenie." },
     ],
     contact: [
-        { icon: "fa fa-mobile", href: "tel:+48607271787", label: "+48 607-271-787" },
+        { icon: "fa fa-mobile", href: "tel:+48609740041", label: "+48 609-740-041" },
         { icon: "fa fa-envelope-open", href: "mailto:kontakt@bezpiecznywypoczynek.pl", label: "kontakt@bezpiecznywypoczynek.pl" },
     ],
     cta: {

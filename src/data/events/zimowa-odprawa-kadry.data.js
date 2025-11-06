@@ -7,7 +7,6 @@ const zimowaOdprawaKadry = {
     date: "05.01.2024",
     endDate: "07.01.2024",
     location: "Pałac w Witaszycach",
-    category: "szkolenie",
     heroImage: "/assets/images/backgrounds/szkolenie-zimowe-2023-bezpieczny-wypoczynek.jpg",
     intro: [
         "Pierwsze godziny każdego turnusu decydują, czy grupa stanie się zgraną paczką, czy tylko zbiorem samotnych smartfonowych wysp. Dlatego zimowe szkolenie kadry – od kierowników po wychowawców – kładzie silny nacisk zarówno na integrację, jak i bezpieczeństwo uczestników.",

@@ -6,7 +6,6 @@ const wiezeOsobliwosci2024 = {
     date: "30.05.2024",
     endDate: "02.06.2024",
     location: "Zamek Moszna",
-    category: "konsultacje",
     heroImage: "/assets/images/backgrounds/konsultacje-Zamek-Moszna-2024.jpg",
     images: [],
     intro: [
@@ -51,7 +50,6 @@ const wiezeOsobliwosci2024 = {
         coordinator: "Jolanta Jarosz-Jędrzejak",
         locationLabel: "Zamek Moszna",
         dateLabel: "30 maja – 2 czerwca 2024 r.",
-        topics: ["bezpieczny wypoczynek", "trendy 2024", "wybór organizatora", "porady dla rodziców"],
         audience: "Rodzice dzieci w wieku szkolnym",
         price: "Darmowe",
     },

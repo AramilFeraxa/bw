@@ -26,6 +26,9 @@ export default function Footer() {
                                     {footerData.events.map((e, i) => (
                                         <li key={i}><Link href={e.href}>{e.label}</Link></li>
                                     ))}
+                                    <Link href="/wydarzenia" className="thm-btn thm-btn--two thm-btn--light" style={{ color: 'white', marginTop: '10px', opacity: 1 }}>
+                                        <span>Wszystkie wydarzenia</span>
+                                    </Link>
                                 </ul>
                             </div>
                         </div>
