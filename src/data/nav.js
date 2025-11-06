@@ -8,6 +8,7 @@ export const headerNav = [
         ]
     },
     { label: "Blog", href: "/blog" },
+    { label: "Projekty", href: "/projekty" },
     { label: "Wydarzenia", href: "/wydarzenia" },
     { label: "Kontakt", href: "/kontakt" }
 ];
