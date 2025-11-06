@@ -20,6 +20,7 @@ export default function ProjectsDetailsPage({ project }) {
         funding,
         partners = [],
         shortAbout,
+        fundInfo,
     } = project;
 
     return (
@@ -117,7 +118,7 @@ export default function ProjectsDetailsPage({ project }) {
                                             {images.map((image, i) => (
                                                 <div
                                                     key={`img-${i}`}
-                                                    className={`col-md-${images.length === 1 ? "12" : images.length === 2 ? "6" : images.length === 3 ? "4" : images.length === 4 ? "6" : "4"}`}
+                                                    className={`col-md-${images.length === 1 ? "12" : images.length === 2 ? "6" : images.length === 3 ? "4" : images.length === 4 ? "6" : "4"} ${styles.galleryItem}`}
                                                 >
                                                     <img
                                                         src={image.src}
@@ -148,6 +149,11 @@ export default function ProjectsDetailsPage({ project }) {
                                                 </a>
                                             ))}
                                         </div>
+                                    </div>
+                                )}
+                                {fundInfo && (
+                                    <div className={styles.fundInfo}>
+                                        <img src={fundInfo} />
                                     </div>
                                 )}
 
@@ -232,7 +238,6 @@ export default function ProjectsDetailsPage({ project }) {
                                     </div>
                                 )}
 
-                                {/* Współpraca/Partnerzy */}
                                 {partners && partners.length > 0 && (
                                     <div className={styles.sidebarSingle}>
                                         <h3 className={styles.sidebarTitle}>Współpraca</h3>
@@ -266,9 +271,9 @@ export default function ProjectsDetailsPage({ project }) {
                                 )}
                             </div>
                         </div>
-                    </div>
-                </div>
-            </section>
+                    </div >
+                </div >
+            </section >
         </>
     );
 }

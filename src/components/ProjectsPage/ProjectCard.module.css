@@ -1,0 +1,130 @@
+.projectCard {
+    background-color: #fff;
+    border-radius: 0;
+    overflow: hidden;
+    box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.07);
+    transition: all 0.4s ease;
+}
+
+.projectCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.12);
+}
+
+.projectCardImage {
+    position: relative;
+    overflow: hidden;
+}
+
+.projectCardImage img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    transition: all 0.4s ease;
+}
+
+.projectCard:hover .projectCardImage img {
+    transform: scale(1.05);
+}
+
+.projectCardCategory {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.projectCardCategory a {
+    display: inline-block;
+    padding: 8px 20px;
+    background-color: inherit;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border-radius: 3px;
+    transition: all 0.4s ease;
+}
+
+.projectCardCategory a:hover {
+    opacity: 0.9;
+}
+
+.projectCardContent {
+    padding: 30px;
+}
+
+.projectCardTitle {
+    margin: 0 0 15px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+.projectCardTitle a {
+    color: var(--paroti-black);
+    text-decoration: none;
+    background: linear-gradient(currentcolor, currentcolor) 0 95%/0 2px no-repeat;
+    transition: background-size 0.45s ease, color 0.2s ease;
+}
+
+.projectCardTitle a:hover {
+    color: var(--paroti-primary);
+    background-size: 100% 2px;
+}
+
+.projectCardText {
+    margin: 0 0 0 0;
+    color: var(--paroti-text, #768385);
+    font-size: 16px;
+    line-height: 1.75;
+    border-bottom: 1px solid var(--paroti-border, #dde8ea);
+    padding-bottom: 20px;
+}
+
+.bar {
+    position: relative;
+    height: 6px;
+    background-color: var(--paroti-gray, #f1f6f7);
+    border-radius: 3px;
+    margin-top: 49px;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.barInner {
+    position: relative;
+    height: 100%;
+    background-color: var(--accent-color, var(--paroti-primary));
+    border-radius: 3px;
+    transition: width 1.5s ease;
+}
+
+.countText {
+    position: absolute;
+    bottom: 100%;
+    right: 0;
+    color: var(--accent-color, var(--paroti-primary));
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1em;
+    padding-bottom: 9px;
+}
+
+.projectCardStatus {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.projectCardStatus p {
+    margin: 0;
+    font-size: 14px;
+    color: var(--paroti-gray);
+}
+
+.projectCardStatus span {
+    font-weight: 700;
+    color: var(--paroti-black);
+}

@@ -4,7 +4,7 @@ import EventsGrid from "@/components/Events/EventsGrid";
 import { events } from "@/data/events";
 
 export default function WydarzeniaPage() {
-    const pageTitle = "Wydarzenia na rzecz Bezpiecznego Wypoczynku";
+    const pageTitle = "Wydarzenia | Aktywni na Rzecz Bezpiecznego Wypoczynku";
     const pageDescription =
         "Dowiedz się więcej o naszych inicjatywach. Sprawdź wydarzenia w Twojej okolicy i dołącz do nas!";
 
