@@ -23,6 +23,14 @@ export default function ProjectsDetailsPage({ project }) {
         fundInfo,
     } = project;
 
+    const categoryColors = {
+        'Szkolenie': '#fdbe44',
+        'Rozwój': '#8139e7',
+        'Pomoc': '#44b0fd',
+    };
+
+    const accentColor = categoryColors[category] || '#fdbe44';
+
     return (
         <>
             <Head>
@@ -39,11 +47,11 @@ export default function ProjectsDetailsPage({ project }) {
                     <div className="row">
                         <div className="col-lg-8">
                             <div className={styles.donationsDetails}>
-                                <div className={styles.donationsCard} style={{ "--accent-color": "#fdbe44" }}>
+                                <div className={styles.donationsCard} style={{ "--accent-color": accentColor }}>
                                     <div className={styles.donationsCardImage}>
                                         <img src={heroImage} alt={title} />
                                         {category && (
-                                            <div className={styles.donationsCardCategory}>
+                                            <div className={styles.donationsCardCategory} style={{ backgroundColor: accentColor }}>
                                                 <a href="#">{category}</a>
                                             </div>
                                         )}
@@ -84,7 +92,7 @@ export default function ProjectsDetailsPage({ project }) {
                                                 <h2 className={styles.donationsCardTitle}>{section.heading}</h2>
                                             )}
                                             {section.paragraphs?.map((p, j) => (
-                                                <p key={`section-${i}-p-${j}`}>{p}</p>
+                                                <div key={`section-${i}-p-${j}`}>{p}</div>
                                             ))}
                                             {section.list && (
                                                 <ul className={`list-unstyled ${styles.donationsDetailsList}`}>
@@ -102,14 +110,19 @@ export default function ProjectsDetailsPage({ project }) {
                                     {results && (
                                         <>
                                             <h2 className={styles.donationsCardTitle}>{results.heading}</h2>
-                                            <ul className={`list-unstyled ${styles.donationsDetailsList}`}>
-                                                {results.items?.map((item, i) => (
-                                                    <li key={`result-${i}`}>
-                                                        <i className="fa fa-check-circle"></i>
-                                                        {item}
-                                                    </li>
-                                                ))}
-                                            </ul>
+                                            {results.items && (
+                                                <ul className={`list-unstyled ${styles.donationsDetailsList}`}>
+                                                    {results.items.map((item, i) => (
+                                                        <li key={`result-${i}`}>
+                                                            <i className="fa fa-check-circle"></i>
+                                                            {item}
+                                                        </li>
+                                                    ))}
+                                                </ul>
+                                            )}
+                                            {results.paragraphs?.map((p, i) => (
+                                                <p key={`result-p-${i}`}>{p}</p>
+                                            ))}
                                         </>
                                     )}
 
@@ -141,9 +154,11 @@ export default function ProjectsDetailsPage({ project }) {
                                             {downloadFiles.map((file, i) => (
                                                 <a
                                                     key={`file-${i}`}
-                                                    href={file.url}
-                                                    className={`thm-btn ${styles.donationsDetailsPresentationBtn}`}
-                                                    download
+                                                    href={file.disabled ? "#" : file.url}
+                                                    className={`thm-btn ${styles.donationsDetailsPresentationBtn} ${file.disabled ? styles.disabled : ""}`}
+                                                    download={!file.disabled}
+                                                    onClick={file.disabled ? (e) => e.preventDefault() : undefined}
+                                                    style={file.disabled ? { opacity: 0.6, cursor: 'not-allowed' } : {}}
                                                 >
                                                     <span>{file.label}</span>
                                                 </a>
