@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { useRouter } from "next/router";
 import styles from "./MobileNav.module.css";
 import Link from "next/link";
+import { headerNav } from "@/data/nav";
 
 export default function MobileNav({ open = false, onClose = () => { } }) {
     const router = useRouter();
@@ -40,18 +41,34 @@ export default function MobileNav({ open = false, onClose = () => { } }) {
                         className={styles.list}
                         onClick={(e) => { if (e.target && e.target.tagName === "A") onClose(); }}
                     >
-                        <li>
-                            <details>
-                                <summary>O nas</summary>
-                                <ul>
-                                    <li><Link href="/zespol">Zespół</Link></li>
-                                    <li><Link href="/statut">Statut</Link></li>
-                                </ul>
-                            </details>
-                        </li>
-                        <li><Link href="/blog">Blog</Link></li>
-                        <li><Link href="/wydarzenia">Wydarzenia</Link></li>
-                        <li><Link href="/kontakt">Kontakt</Link></li>
+                        {headerNav.map((item, index) => {
+                            if (item.children) {
+                                return (
+                                    <li key={index}>
+                                        <details>
+                                            <summary>{item.label}</summary>
+                                            <ul>
+                                                {item.children.map((child, childIndex) => (
+                                                    <li key={childIndex}>
+                                                        <Link href={child.href}>{child.label}</Link>
+                                                    </li>
+                                                ))}
+                                            </ul>
+                                        </details>
+                                    </li>
+                                );
+                            }
+
+                            if (item.href === "/") {
+                                return null;
+                            }
+
+                            return (
+                                <li key={index}>
+                                    <Link href={item.href}>{item.label}</Link>
+                                </li>
+                            );
+                        })}
                     </ul>
                 </nav>
                 <div className={styles.cta}>
