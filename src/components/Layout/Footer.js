@@ -16,6 +16,7 @@ export default function Footer() {
                                     <img src="/assets/images/logo-light.png" width="auto" height="47" alt="Logo stowarzyszenia" />
                                 </Link>
                                 <p className={styles.widgetText}>{footerData.address}</p>
+                                <p className={styles.widgetText}>NIP: {footerData.nip}<br /> REGON: {footerData.regon}<br /> KRS: {footerData.krs}</p>
                             </div>
                         </div>
 

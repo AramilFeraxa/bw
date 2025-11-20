@@ -1,5 +1,8 @@
 export const footerData = {
     address: "Gana 64, 46-320 Praszka, Polska",
+    nip: "5761594056",
+    regon: "52392711400000",
+    krs: "0001007902",
     events: [
         { href: "/bezpieczne-wakacje-bezpieczny-wychowawca", label: "Akademia Arcymistrzów" },
         { href: "/bezpieczne-wakacje-konsultanci-ruszaja-na-majowke", label: "Majówkowe konsultacje" },
