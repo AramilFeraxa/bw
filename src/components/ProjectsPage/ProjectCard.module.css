@@ -4,6 +4,9 @@
     overflow: hidden;
     box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.07);
     transition: all 0.4s ease;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 
 .projectCard:hover {
@@ -52,6 +55,22 @@
 
 .projectCardContent {
     padding: 30px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.projectCardBody {
+    flex: 1;
+    margin-bottom: 20px;
+}
+
+.projectCardFooter {
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-top: 1px solid var(--paroti-border, #dde8ea);
 }
 
 .projectCardTitle {
@@ -78,8 +97,10 @@
     color: var(--paroti-text, #768385);
     font-size: 16px;
     line-height: 1.75;
-    border-bottom: 1px solid var(--paroti-border, #dde8ea);
-    padding-bottom: 20px;
+}
+
+.projectCardProgress {
+    margin-bottom: 5px;
 }
 
 .bar {

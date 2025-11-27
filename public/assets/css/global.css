@@ -25,3 +25,16 @@ h2 {
     background: #f9f9f9;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
+
+.linkHref {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-weight: 700;
+    font-size: 14px;
+    color: var(--paroti-secondary, #fdbe44);
+}
+
+.linkHref:hover {
+    text-decoration: underline;
+}

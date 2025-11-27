@@ -19,34 +19,42 @@ export default function ProjectCard({ project }) {
                 </div>
             </div>
             <div className={styles.projectCardContent}>
-                <h3 className={styles.projectCardTitle}>
-                    <Link href={`/projekty/${project.id}`}>
-                        {project.title}
-                    </Link>
-                </h3>
-                <p className={styles.projectCardText}>
-                    {project.seoDescription.substring(0, 100)}...
-                </p>
-                {project.progressPercent && (
-                    <>
-                        <div className={styles.bar}>
-                            <div
-                                className={styles.barInner}
-                                style={{ width: `${project.progressPercent}%` }}
-                            >
-                                <div className={styles.countText}>{project.progressPercent}%</div>
+                <div className={styles.projectCardBody}>
+                    <h3 className={styles.projectCardTitle}>
+                        <Link href={`/projekty/${project.id}`}>
+                            {project.title}
+                        </Link>
+                    </h3>
+                    <p className={styles.projectCardText}>
+                        {project.seoDescription.substring(0, 100)}...
+                    </p>
+                </div>
+                <div className={styles.projectCardFooter}>
+                    {project.progressPercent && (
+                        <div className={styles.projectCardProgress}>
+                            <div className={styles.bar}>
+                                <div
+                                    className={styles.barInner}
+                                    style={{ width: `${project.progressPercent}%` }}
+                                >
+                                    <div className={styles.countText}>{project.progressPercent}%</div>
+                                </div>
+                            </div>
+                            <div className={styles.projectCardStatus}>
+                                <p>
+                                    <span>Realizacja</span>
+                                </p>
+                                <p>
+                                    <span>{project.progressPercent}%</span>
+                                </p>
                             </div>
                         </div>
-                        <div className={styles.projectCardStatus}>
-                            <p>
-                                <span>Realizacja</span>
-                            </p>
-                            <p>
-                                <span>{project.progressPercent}%</span>
-                            </p>
-                        </div>
-                    </>
-                )}
+                    )}
+                    <Link href={`/projekty/${project.id}`} className="linkHref">
+                        <i className="fa fa-angle-double-right" />
+                        Dowiedz się więcej
+                    </Link>
+                </div>
             </div>
         </div>
     );

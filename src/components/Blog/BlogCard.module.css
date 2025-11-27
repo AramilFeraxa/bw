@@ -62,15 +62,6 @@
     margin: 0 0 18px;
 }
 
-.link {
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
-    font-weight: 700;
-    font-size: 14px;
-    color: var(--paroti-secondary, #fdbe44);
-}
-
 .imageWrapper {
     position: relative;
     flex: 0 0 40%;

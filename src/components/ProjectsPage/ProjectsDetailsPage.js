@@ -21,6 +21,7 @@ export default function ProjectsDetailsPage({ project }) {
         partners = [],
         shortAbout,
         fundInfo,
+        downloadHeader,
     } = project;
 
     const categoryColors = {
@@ -148,7 +149,7 @@ export default function ProjectsDetailsPage({ project }) {
                                     <div className={styles.donationsDetailsPresentation}>
                                         <i className="paroti-icon-checked"></i>
                                         <h3 className={styles.donationsDetailsPresentationTitle}>
-                                            Materiały z konferencji
+                                            {downloadHeader || "Pliki do pobrania:"}
                                         </h3>
                                         <div className={styles.downloadLinks}>
                                             {downloadFiles.map((file, i) => (

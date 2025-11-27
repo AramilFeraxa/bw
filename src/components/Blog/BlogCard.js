@@ -13,7 +13,7 @@ export default function BlogCard({ post }) {
                     <Link href={post.href}>{post.title}</Link>
                 </h3>
                 <p className={styles.text}>{post.text}</p>
-                <Link href={post.href} className={styles.link}>
+                <Link href={post.href} className="linkHref">
                     <i className="fa fa-angle-double-right" />
                     Czytaj dalej
                 </Link>
