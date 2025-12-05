@@ -7,7 +7,7 @@ export const bezpiecznyWypoczynekSilnaSpolecznosc = {
     subtitle: "",
     category: "Rozwój",
     heroImage: "/assets/images/projects/bezpieczny-wypoczynek-silna-spolecznosc/IMG1.png",
-    progressPercent: 70,
+    progressPercent: 100,
     intro: [
         'Projekt realizowany przez Stowarzyszenie Aktywni na Rzecz Bezpiecznego Wypoczynku w ramach Rządowego Programu Wsparcia Organizacji "Moc Małych Społeczności", finansowanego przez Narodowy Instytut Wolności – Centrum Rozwoju Społeczeństwa Obywatelskiego.',
         'Projekt "Bezpieczny Wypoczynek – Silna Społeczność!" rozwija działania na rzecz bezpieczeństwa dzieci i młodzieży podczas wyjazdów oraz integracji lokalnej społeczności. Realizowany jest w gminie Praszka i na terenie woj. opolskiego.',
@@ -47,15 +47,12 @@ export const bezpiecznyWypoczynekSilnaSpolecznosc = {
         },
     ],
     results: {
-        heading: "Rezultaty (planowane i już osiągane) i znaczenie projektu",
+        heading: "Rezultaty i znaczenie projektu",
         items: [
-            "Edukacja i bezpieczeństwo: uczymy dzieci i dorosłych, jak przygotować i przeprowadzać bezpieczne wyjazdy.",
-            "Rozwój wolontariatu: budujemy zespół liderów, którzy będą wspierać szkoły i rodziny w działaniach prospołecznych.",
-            "Trwałe partnerstwa: wspólne działania z Zamkiem Moszna tworzą trwały fundament dla rozwoju standardów bezpieczeństwa w całym regionie.",
-        ],
-        paragraphs: [
-            "W ramach projektu planuje się przeszkolenie stu mieszkańców regionu – dzieci, rodziców, nauczycieli oraz wolontariuszy. Piętnaście osób z grona wolontariuszy zostaje przygotowanych do pełnienia roli lokalnych liderów działań na rzecz bezpieczeństwa. Powstaje nowy standard organizacji wypoczynku, opracowany we współpracy z Zamkiem Moszna i przekazany do szkół oraz organizacji działających na terenie województwa opolskiego.",
-            "Dzięki prowadzonej kampanii informacyjnej i obecności w mediach społecznościowych rośnie rozpoznawalność Stowarzyszenia, a przygotowane plakaty i broszury promują ideę bezpiecznego wypoczynku. W efekcie projekt wzmacnia sieć współpracy i wymiany doświadczeń pomiędzy szkołami, rodzicami, wolontariuszami i instytucjami kultury, tworząc trwałe relacje w środowisku lokalnym.",
+            "Szkolenia w szkołach: w ramach projektu przeprowadzono zajęcia edukacyjne w Szkole Podstawowej nr 3 oraz w Zespole Szkół Ponadpodstawowych w Praszce. Łącznie w zajęciach dla uczniów wzięło udział ponad 60 osób, a w szkoleniach dla nauczycieli i rodziców – ponad 40 uczestników. Program obejmował m.in. przygotowanie do wyjazdów, zasady bezpieczeństwa, pierwszą pomoc oraz praktyczne wskazówki dotyczące organizacji wyjazdów.",
+            "Szkolenie dla wolontariuszy: 10 członków Stowarzyszenia zostało przeszkolonych w Zamku Moszna w zakresie prawa turystycznego i konsumenckiego, RODO, prawa cywilnego oraz prawa pracy i wolontariatu. Dzięki temu zyskaliśmy grupę kompetentnych liderów gotowych wspierać działania lokalne i edukacyjne.",
+            "Lokalny standard organizacji wypoczynku: we współpracy z Zamkiem Moszna opracowano dokument zawierający praktyczne wytyczne i dobre praktyki dla szkół oraz organizatorów wyjazdów dzieci i młodzieży, który stanowi trwałe narzędzie podnoszące bezpieczeństwo w regionie.",
+            "Promocja i współpraca społeczna: dzięki prowadzonej kampanii informacyjnej i obecności w mediach społecznościowych rośnie rozpoznawalność Stowarzyszenia, a przygotowane plakaty i broszury promują ideę bezpiecznego wypoczynku. Projekt wzmacnia sieć współpracy i wymiany doświadczeń pomiędzy szkołami, rodzicami, wolontariuszami i instytucjami kultury, tworząc trwałe relacje w środowisku lokalnym.",
         ],
     },
     images: [
@@ -74,6 +71,38 @@ export const bezpiecznyWypoczynekSilnaSpolecznosc = {
         {
             src: "/assets/images/events/Turawa 2025 spotkanie wolontariuszy Aktywni na Rzecz Bezpiecznego Wypoczunku - szkolenie z turystyki.jpg",
             alt: "Szkolenie dla wolontariuszy",
+        },
+        {
+            src: "/assets/images/projects/bezpieczny-wypoczynek-silna-spolecznosc/1.JPEG",
+            alt: "Szkolenie",
+        },
+        {
+            src: "/assets/images/projects/bezpieczny-wypoczynek-silna-spolecznosc/2.JPG",
+            alt: "Szkolenie",
+        },
+        {
+            src: "/assets/images/projects/bezpieczny-wypoczynek-silna-spolecznosc/3.JPG",
+            alt: "Szkolenie",
+        },
+        {
+            src: "/assets/images/projects/bezpieczny-wypoczynek-silna-spolecznosc/4.JPG",
+            alt: "Szkolenie",
+        },
+        {
+            src: "/assets/images/projects/bezpieczny-wypoczynek-silna-spolecznosc/5.JPG",
+            alt: "Szkolenie",
+        },
+        {
+            src: "/assets/images/projects/bezpieczny-wypoczynek-silna-spolecznosc/6.jpg",
+            alt: "Szkolenie",
+        },
+        {
+            src: "/assets/images/projects/bezpieczny-wypoczynek-silna-spolecznosc/7.JPG",
+            alt: "Szkolenie",
+        },
+        {
+            src: "/assets/images/projects/bezpieczny-wypoczynek-silna-spolecznosc/8.jpeg",
+            alt: "Szkolenie",
         },
     ],
     downloadFiles: [
