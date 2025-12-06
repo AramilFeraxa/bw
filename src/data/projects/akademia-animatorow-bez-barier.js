@@ -90,6 +90,10 @@ export const akademiaAnimatorowBezBarier = {
         {
             label: "Formularz rekrutacyjny",
             url: "/assets/files/aabb/FORMULARZ REKRUTACYJNY.pdf",
+        },
+        {
+            label: "Klauzula informacyjna RODO",
+            url: "/assets/files/klauzula informacyjna rodo 2025.pdf",
         }
     ],
     formLink: {
