@@ -27,26 +27,42 @@ export const akademiaAnimatorowBezBarier = {
         {
             heading: "Co czeka Cię na szkoleniu?",
             paragraphs: [
-                "Akademia Animatorów bez Barier to trzydniowe, intensywne szkolenie dla osób pracujących lub planujących pracę jako animatorzy turystyki społecznej. Program łączy wiedzę teoretyczną z praktycznymi warsztatami, dzięki czemu uczestnicy uczą się w realistycznych sytuacjach, jakie napotykają w pracy z dziećmi z niepełnosprawnościami i z doświadczeniem pieczy zastępczej.",
-                "W trakcie szkolenia uczestnicy rozwijają umiejętności integracji grupy, empatii oraz współpracy poprzez warsztaty i gry edukacyjne. Poznają przepisy prawa dotyczące opieki nad dziećmi i obowiązki animatora, a także zdobywają wiedzę z zakresu bezpieczeństwa, higieny, pierwszej pomocy somatycznej i psychicznej.",
-                "Szkolenie obejmuje również praktyki w komunikacji z dziećmi o różnych potrzebach, włączanie metod animacyjnych dostosowanych do poziomu sprawności uczestników oraz scenariuszy gier i zabaw edukacyjnych.",
-                "Część warsztatowa pozwala na symulacje sytuacji wychowawczych, analizę scenariuszy i praktyczne ćwiczenia w grupach, co daje możliwość sprawdzenia nabytych umiejętności w bezpiecznym środowisku. Na zakończenie uczestnicy dokonują wspólnej refleksji nad zdobytymi kompetencjami i otrzymują certyfikaty potwierdzające udział w kursie ''Animator Turystyki Bez Barier''.",
+                "Szkolenie łączy moduły teoretyczne (prawo, bezpieczeństwo, psychologia, etyka) z praktycznymi warsztatami i symulacjami terenowymi, kładąc nacisk na realne sytuacje spotykane w pracy animatora i wychowawcy. Program opiera się na aktualnych standardach Bezpiecznego Wypoczynku, rekomendacjach Ministerstwa Edukacji Narodowej oraz dobrych praktykach organizacji, takich jak Fundacja Gajusz (opieka paliatywna i wsparcie dzieci przewlekle chorych) i wieloletnich organizatorach wypoczynku dzieci i młodzieży.",
+                "Projekt realizuje cel likwidacji barier w turystyce społecznej poprzez rozwój kompetencji kadry wychowawczej i animacyjnej, promowanie włączających metod pracy oraz stworzenie przestrzeni do współpracy między branżą turystyczną, edukacyjną i opiekuńczą.",
+            ],
+        },
+        {
+            heading: "To chcemy osiągnąć!",
+            list: [
+                "przeszkolenie 100 uczestników w formie certyfikowanego kursu ''Animator Turystyki Bez Barier''",
+                "przygotowanie uczestników do pracy z dziećmi z niepełnosprawnościami i z placówek opiekuńczo-wychowawczych,",
+                "rozwój kompetencji w zakresie bezpieczeństwa, komunikacji, pierwszej pomocy psychicznej i tworzenia włączających programów,",
+                "utworzenie sieci animatorów gotowych do współpracy przy projektach edukacyjno-turystycznych dla dzieci o zróżnicowanych potrzebach,",
+                "opracowanie zestawu materiałów szkoleniowych i dobrych praktyk udostępnianych w wersji elektronicznej.",
+            ],
+        },
+        {
+            heading: "Tutaj możesz poznać bloki tematyczne w ramach szkolenia Animator Turystyki Bez Barier:",
+            list: [
+                "Obszar: Wprowadzenie i integracja. Temat: Warsztaty integracyjne, gra wieczorna ''Turystyka bez barier'' – ćwiczenia empatii i współpracy.",
+                "Obszar: Prawo i odpowiedzialność dot. funkcji wychowawcy wypoczynku oraz animatora. Temat: Obowiązki i odpowiedzialność animatora turystyki wobec uczestników, w tym uczestników z niepełnosprawnościami, prawo oświatowe i turystyczne.",
+                "Obszar: Bezpieczeństwo i higiena wypoczynku. Temat: Sanitarne, medyczne i organizacyjne aspekty opieki – profilaktyka, higiena, warunki żywienia, reagowanie w sytuacjach kryzysowych.",
+                "Obszar: Zdrowie i pierwsza pomoc. Temat: Przygotowanie własnego warsztatu do udzielenia wsparcia i pierwszej pomocy, w tym pierwszej pomocy psychicznej dzieciom i młodzieży ze specjalnymi potrzebami.",
+                "Obszar: Ochrona małoletnich. Temat: Standardy ochrony małoletnich, rozpoznawanie przemocy, reagowanie na zagrożenia.",
+                "Obszar: Komunikacja i praca z osobami o specjalnych potrzebach. Temat: Jak mówić, słuchać i animować – komunikacja alternatywna, wrażliwość kulturowa i sensoryczna, praca z dziećmi z ASD, ADHD, zaburzeniami emocjonalnymi itp.",
+                "Obszar: Rola animatora – turystyka jako narzędzie włączenia. Temat: Scenariusze gier i animacji dostosowanych do różnych poziomów sprawności, metody storytellingu i edukacji przez zabawę.",
+                "Obszar: Warsztat praktyczny. Temat: Symulacja sytuacji wychowawczych, praca w pięciu 20-osobowych grupach (case study, analiza filmów, scenariusze gier).",
+                "Obszar: Podsumowanie i certyfikacja. Temat: Ewaluacja, refleksja grupowa, wręczenie certyfikatów.",
             ],
         },
         {
             heading: "Miejsce i termin szkolenia",
+            paragraphs: [
+                "Szkolenie obejmuje pełny pakiet warsztatów, wykładów i symulacji praktycznych. Zapewniony jest transport autokarowy z Opola, zakwaterowanie i wyżywienie uczestników, a także dostęp do nowoczesnych sal i sprzętu multimedialnego.",
+            ],
             list: [
                 "Zamek Moszna, woj. opolskie",
                 "28–30 grudnia 2025 r.",
-            ],
-            paragraphs: [
-                <>
-                    <p>
-                        Szkolenie obejmuje pełny pakiet warsztatów, wykładów i symulacji praktycznych.
-                        Zapewniony jest transport autokarowy z Opola, zakwaterowanie i wyżywienie uczestników,
-                        a także dostęp do nowoczesnych sal i sprzętu multimedialnego.
-                    </p>
-                </>,
             ],
         },
         {
@@ -97,5 +113,10 @@ export const akademiaAnimatorowBezBarier = {
         ],
     },
     partners: [],
-    shortAbout: null,
+    shortAbout: {
+        author: "Jakub Jędrzejak",
+        date: "05.12.2025",
+        authorImage: "/assets/images/volunteers/jakub-jedrzejak.jpg",
+        text: "Przeszkolony animator staje się nośnikiem wiedzy i wzoru dobrych praktyk – może inspirować kolegów, promować standardy inkluzywności w swoich środowiskach, upowszechniać wiedzę i budować świadomość dla szerszego gremium korzystających z dobra, jakie niesie ze sobą szeroko rozumiana turystyka",
+    },
 };
