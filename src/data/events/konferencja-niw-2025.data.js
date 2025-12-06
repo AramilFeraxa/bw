@@ -2,7 +2,7 @@ const konferencjaNIWCRSO2025 = {
     seoTitle: "Konferencja NIW-CRSO Silne organizacje – odporne społeczeństwo | Bezpieczny Wypoczynek",
     seoDescription:
         "Udział w dorocznej konferencji Narodowego Instytutu Wolności w Warszawie - debaty, panele i warsztaty dla organizacji pozarządowych.",
-    title: "Udział w konferencji NIW-CRSO „Silne organizacje – odporne społeczeństwo"",
+    title: "Udział w konferencji NIW-CRSO ''Silne organizacje – odporne społeczeństwo''",
     dateBadge: "17.11.2025",
     date: "17.11.2025",
     endDate: "18.11.2025",
@@ -10,7 +10,7 @@ const konferencjaNIWCRSO2025 = {
     heroImage: "/assets/images/events/3_niw-crso_2.jpeg",
     images: [],
     intro: [
-        "Przez dwa dni, 17-18 listopada 2025 r., przedstawiciele Stowarzyszenia „Aktywni na Rzecz Bezpiecznego Wypoczynku" mieli okazję uczestniczyć w dorocznej konferencji Narodowego Instytutu Wolności – Centrum Rozwoju Społeczeństwa Obywatelskiego „Silne organizacje – odporne społeczeństwo". Wydarzenie zgromadziło ponad 300 uczestników z całej Polski, w tym przedstawicieli organizacji pozarządowych, administracji publicznej oraz ekspertów działających w sektorze społecznym.",
+        "Przez dwa dni, 17-18 listopada 2025 r., przedstawiciele Stowarzyszenia ''Aktywni na Rzecz Bezpiecznego Wypoczynku'' mieli okazję uczestniczyć w dorocznej konferencji Narodowego Instytutu Wolności – Centrum Rozwoju Społeczeństwa Obywatelskiego ''Silne organizacje – odporne społeczeństwo''. Wydarzenie zgromadziło ponad 300 uczestników z całej Polski, w tym przedstawicieli organizacji pozarządowych, administracji publicznej oraz ekspertów działających w sektorze społecznym.",
     ],
     sections: [
         {
