@@ -215,6 +215,39 @@
     width: 100%;
 }
 
+.formLinkWrapper {
+    text-align: center;
+    margin: 50px 0;
+    padding: 40px 20px;
+    background: linear-gradient(135deg, #f8f9fb 0%, #ffffff 100%);
+    border-radius: 10px;
+}
+
+.formLinkButton {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    padding: 18px 40px;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+}
+
+.formLinkButton i {
+    font-size: 18px !important;
+    color: #fff !important;
+    opacity: 1 !important;
+    display: inline-block !important;
+    margin-left: 8px;
+    transition: transform 0.3s ease;
+}
+
+.formLinkButton:hover i {
+    transform: translateX(5px);
+}
+
 .blogDetailsComments {
     margin-top: 50px;
     padding-top: 40px;

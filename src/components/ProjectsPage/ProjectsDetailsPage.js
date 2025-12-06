@@ -16,6 +16,7 @@ export default function ProjectsDetailsPage({ project }) {
         sections,
         results,
         downloadFiles = [],
+        formLink,
         coordinators = [],
         funding,
         partners = [],
@@ -141,6 +142,21 @@ export default function ProjectsDetailsPage({ project }) {
                                                     />
                                                 </div>
                                             ))}
+                                        </div>
+                                    )}
+                                    {formLink && (
+                                        <div className={styles.formLinkWrapper}>
+                                            <a
+                                                href={formLink.url}
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                className={`thm-btn ${styles.formLinkButton}`}
+                                            >
+                                                <span>
+                                                    {formLink.label}
+                                                    <i className="fa fa-arrow-right" style={{ marginLeft: '10px', color: '#fff' }}></i>
+                                                </span>
+                                            </a>
                                         </div>
                                     )}
                                 </div>

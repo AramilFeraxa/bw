@@ -64,6 +64,16 @@ export default function EventDetails({ event }) {
                                                 {p}
                                             </div>
                                         ))}
+                                        {sec.list && (
+                                            <ul className={styles.list}>
+                                                {sec.list.map((item, k) => (
+                                                    <li key={`sec-${i}-li-${k}`}>
+                                                        <i className="fa fa-check-circle" aria-hidden="true"></i>
+                                                        {item}
+                                                    </li>
+                                                ))}
+                                            </ul>
+                                        )}
                                     </div>
                                 ))}
 

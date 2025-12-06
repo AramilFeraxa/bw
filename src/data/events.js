@@ -1,5 +1,59 @@
 export const events = [
     {
+        slug: "szkolenie-zarzad-moszna-2025",
+        title: "Szkolenie Zarządu Stowarzyszenia",
+        date: "28.11.2025",
+        location: "Zamek Moszna",
+        category: "szkolenie",
+        image: "/assets/images/events/6_szkolenie członków.jpeg",
+        href: "/wydarzenia/szkolenie-zarzad-moszna-2025"
+    },
+    {
+        slug: "edukacja-szkoly-praszka-2025",
+        title: "Edukacja w szkołach na terenie Praszki",
+        date: "26-27.11.2025",
+        location: "Praszka",
+        category: "edukacja",
+        image: "/assets/images/events/4_uczniowe z certyfikatami w zsp Sportowa z Bepziecznego Wypoczynku.JPG",
+        href: "/wydarzenia/edukacja-szkoly-praszka-2025"
+    },
+    {
+        slug: "szkola-dobrego-wolontariatu-2025",
+        title: "Szkoła Dobrego Wolontariatu",
+        date: "24-26.11.2025",
+        location: "Warszawa",
+        category: "szkolenie",
+        image: "/assets/images/events/5_szkoła dobrego wolonatriatu.jpeg",
+        href: "/wydarzenia/szkola-dobrego-wolontariatu-2025"
+    },
+    {
+        slug: "konferencja-niw-2025",
+        title: "Konferencja NIW-CRSO w Warszawie",
+        date: "17-18.11.2025",
+        location: "Warszawa",
+        category: "konferencja",
+        image: "/assets/images/events/3_niw-crso_2.jpeg",
+        href: "/wydarzenia/konferencja-niw-2025"
+    },
+    {
+        slug: "konferencja-ozimek-2025",
+        title: "Konferencja regionalna w Ozimku",
+        date: "04.11.2025",
+        location: "Ozimek",
+        category: "konferencja",
+        image: "/assets/images/events/2_Konferencja w Ozimku.jpeg",
+        href: "/wydarzenia/konferencja-ozimek-2025"
+    },
+    {
+        slug: "konferencje-bezpieczny-wypoczynek-moszna-2025",
+        title: "Konferencje Bezpieczny Wypoczynek w Zamku Moszna",
+        date: "21 i 28.10.2025",
+        location: "Zamek Moszna",
+        category: "konferencja",
+        image: "/assets/images/events/1_konferecja BezpiecznyWypoczynek_Projekt Świadomi Nauczycieli Mocą Opolszczyny 21.10_2.jpeg",
+        href: "/wydarzenia/konferencje-bezpieczny-wypoczynek-moszna-2025"
+    },
+    {
         slug: "bieg-belfra",
         title: "Sportowa energia i nauczycielska pasja w Grodkowie",
         date: "18.10.2025",
