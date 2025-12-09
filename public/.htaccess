@@ -1,10 +1,15 @@
 RewriteEngine On
 
-Redirect 301 /konferencja-dla-nauczycieli-wojew%C3%B3dztwa-opolskiego-II-edycja.html /konferencja-dla-nauczycieli-wojewodztwa-opolskiego-ii-edycja.html
-Redirect 301 /konferencja-dla-nauczycieli-województwa-opolskiego-II-edycja.html /konferencja-dla-nauczycieli-wojewodztwa-opolskiego-ii-edycja.html
+RewriteCond %{HTTP_HOST} ^www\.bezpiecznywypoczynek\.pl$ [NC]
+RewriteRule ^(.*)$ https://bezpiecznywypoczynek.pl/$1 [L,R=301]
 
-<FilesMatch "\.(webp|svg|jpg|jpeg|png|gif|js|css)$"> 
-Header set Cache-Control "max-age=31536000, public"
+Redirect 301 /konferencja-dla-nauczycieli-wojew%C3%B3dztwa-opolskiego-II-edycja.html
+/konferencja-dla-nauczycieli-wojewodztwa-opolskiego-ii-edycja.html
+Redirect 301 /konferencja-dla-nauczycieli-województwa-opolskiego-II-edycja.html
+/konferencja-dla-nauczycieli-wojewodztwa-opolskiego-ii-edycja.html
+
+<FilesMatch "\.(webp|svg|jpg|jpeg|png|gif|js|css)$">
+    Header set Cache-Control "max-age=31536000, public"
 </FilesMatch>
 
 <FilesMatch ".pdf$">
