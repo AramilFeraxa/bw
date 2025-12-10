@@ -39,10 +39,7 @@ export const bezpiecznyWypoczynekSilnaSpolecznosc = {
         {
             heading: "Aktualne działania",
             paragraphs: [
-                "Projekt trwa — już zrealizowaliśmy pierwsze warsztaty i szkolenia, a kolejne spotkania odbywają się jesienią 2025 r.",
-                "W ramach zadania odbył się m.in. wyjazd integracyjno-szkoleniowy do Turawy, podczas którego wolontariusze zdobywali wiedzę z zakresu prawa turystycznego, ochrony danych osobowych i bezpiecznej organizacji wyjazdów.",
-                "Trwają również spotkania robocze z Zamkiem Moszna, których celem jest stworzenie wspólnego standardu organizacji wyjazdów dla dzieci i młodzieży.",
-                "Zostało także podpisane porozumienie o współpracy między Zamkiem Moszna a Stowarzyszeniem Aktywni na Rzecz Bezpiecznego Wypoczynku, rozpoczynające nowy etap wspólnych działań.",
+                "Obecnie trwają przygotowania do podjęcia współpracy z kolejnymi szkołami i placówkami oświatowymi, by w nowym roku kontynuować działania edukacyjne oraz promocję Lokalnego Standardu Bezpiecznego Wypoczynku.",
             ],
         },
     ],
@@ -54,6 +51,7 @@ export const bezpiecznyWypoczynekSilnaSpolecznosc = {
             "Lokalny standard organizacji wypoczynku: we współpracy z Zamkiem Moszna opracowano dokument zawierający praktyczne wytyczne i dobre praktyki dla szkół oraz organizatorów wyjazdów dzieci i młodzieży, który stanowi trwałe narzędzie podnoszące bezpieczeństwo w regionie.",
             "Promocja i współpraca społeczna: dzięki prowadzonej kampanii informacyjnej i obecności w mediach społecznościowych rośnie rozpoznawalność Stowarzyszenia, a przygotowane plakaty i broszury promują ideę bezpiecznego wypoczynku. Projekt wzmacnia sieć współpracy i wymiany doświadczeń pomiędzy szkołami, rodzicami, wolontariuszami i instytucjami kultury, tworząc trwałe relacje w środowisku lokalnym.",
         ],
+        bold: false,
     },
     images: [
         {
@@ -107,14 +105,14 @@ export const bezpiecznyWypoczynekSilnaSpolecznosc = {
     ],
     downloadFiles: [
         {
-            label: "Materiały do pobrania (wkrótce)",
-            url: "#",
-            disabled: true,
+            label: "Lokalny Standard Organizacji Wyjazdów dla Dzieci i Młodzieży",
+            url: "/assets/files/LOKALNY STANDARD.pdf",
+            disabled: false,
         },
     ],
     coordinators: [
         {
-            name: "Krzysztof Pławecki",
+            name: "Karolina Habryło",
             email: "",
         }
     ],
@@ -135,11 +133,21 @@ export const bezpiecznyWypoczynekSilnaSpolecznosc = {
             logo: "/assets/images/projects/moszna_zamek_logo.png",
             website: "https://mosznazamek.pl/",
         },
+        {
+            name: "Szkoła Podstawowa Nr 3 im. ks. Kardynała Stefana Wyszyńskiego w Praszce",
+            logo: "/assets/images/projects/bezpieczny-wypoczynek-silna-spolecznosc/SP3-logo.png",
+            website: "https://sp3.praszka.pl/",
+        },
+        {
+            name: "Zespół Szkół Ponadpodstawowych w Praszce",
+            logo: "/assets/images/projects/bezpieczny-wypoczynek-silna-spolecznosc/ZSP_Praszka.jpg",
+            website: "https://zsp.praszka.pl/",
+        }
     ],
-    /*shortAbout: {
-        author: "",
-        date: "",
-        authorImage: "",
-        text: "Wkrótce...",
-    },*/
+    shortAbout: {
+        author: "Karolina Habryło",
+        date: "10.12.2025",
+        authorImage: "/assets/images/projects/bezpieczny-wypoczynek-silna-spolecznosc/habrylo.jpg",
+        text: "Bardzo dziękujemy za udział w projekcie. Słowa uznania kierujemy do wszystkich prelegentów i prowadzących warsztaty za czas i wysiłek poświęcony w tworzenie materiałów edukacyjnych i samo szkolenie uczniów szkół, nauczycieli, rodziców czy wreszcie nas – członków i sympatyków Stowarzyszenia. Serdecznie podziękowania dla Zarządu Moszna Zamek Sp. z o.o. oraz pracowników, dzięki których zaangażowaniu stworzyliśmy wspólny Lokalny Standard Bezpiecznego Wypoczynku. Wierzymy, że to opracowanie będzie rozwijane, a teraz już może posłużyć pomocą przy organizacji i realizacji bezpiecznego wypoczynku dla dzieci i młodzieży, ze szczególnym uwzględnieniem wycieczek szkolnych",
+    },
 };

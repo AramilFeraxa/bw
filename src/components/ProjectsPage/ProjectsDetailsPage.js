@@ -113,7 +113,7 @@ export default function ProjectsDetailsPage({ project }) {
                                         <>
                                             <h2 className={styles.donationsCardTitle}>{results.heading}</h2>
                                             {results.items && (
-                                                <ul className={`list-unstyled ${styles.donationsDetailsList}`}>
+                                                <ul className={`list-unstyled ${results.bold === false ? styles.donationsDetailsListNormal : styles.donationsDetailsList}`}>
                                                     {results.items.map((item, i) => (
                                                         <li key={`result-${i}`}>
                                                             <i className="fa fa-check-circle"></i>
