@@ -1,7 +1,7 @@
 import Head from "next/head";
 import styles from "./ProjectsDetailsPage.module.css";
 import { Fragment } from "react";
-import Prelegenci from "./Prelegenci/Prelegenci";
+import Speakers from "./Speakers";
 
 export default function ProjectsDetailsPage({ project }) {
     const {
@@ -33,6 +33,8 @@ export default function ProjectsDetailsPage({ project }) {
     };
 
     const accentColor = categoryColors[category] || '#fdbe44';
+
+    const speakersData = project.speakers || [];
 
     return (
         <>
@@ -160,7 +162,6 @@ export default function ProjectsDetailsPage({ project }) {
                                             </a>
                                         </div>
                                     )}
-                                    <Prelegenci speakers={project.speakers} />
                                 </div>
 
                                 {downloadFiles?.length > 0 && (
@@ -185,6 +186,11 @@ export default function ProjectsDetailsPage({ project }) {
                                         </div>
                                     </div>
                                 )}
+
+                                {speakersData && speakersData.length > 0 && (
+                                        <Speakers speakers={speakersData} />
+                                    )}
+
                                 {fundInfo && (
                                     <div className={styles.fundInfo}>
                                         <img src={fundInfo} />
