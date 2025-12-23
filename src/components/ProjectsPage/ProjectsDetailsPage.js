@@ -1,6 +1,7 @@
 import Head from "next/head";
 import styles from "./ProjectsDetailsPage.module.css";
 import { Fragment } from "react";
+import Prelegenci from "./Prelegenci/Prelegenci";
 
 export default function ProjectsDetailsPage({ project }) {
     const {
@@ -159,6 +160,7 @@ export default function ProjectsDetailsPage({ project }) {
                                             </a>
                                         </div>
                                     )}
+                                    <Prelegenci speakers={project.speakers} />
                                 </div>
 
                                 {downloadFiles?.length > 0 && (
