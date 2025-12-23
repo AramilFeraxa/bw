@@ -50,7 +50,7 @@ export default function ProjectsDetailsPage({ project }) {
             <section className={`sec-pad-top sec-pad-bottom ${styles.donationsDetails}`}>
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-8">
+                        <div className="col-lg-9">
                             <div className={styles.donationsDetails}>
                                 <div className={styles.donationsCard} style={{ "--accent-color": accentColor }}>
                                     <div className={styles.donationsCardImage}>
@@ -222,7 +222,7 @@ export default function ProjectsDetailsPage({ project }) {
                             </div>
                         </div>
 
-                        <div className="col-lg-4">
+                        <div className="col-lg-3">
                             <div className={styles.sidebar}>
                                 {coordinators && coordinators.length > 0 && (
                                     <div className={styles.sidebarSingle}>
