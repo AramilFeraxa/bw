@@ -1,0 +1,75 @@
+.timeline {
+    position: relative;
+    padding-left: 28px;
+    margin-top: 8px;
+}
+
+.timeline::before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: rgba(15, 23, 42, 0.08);
+}
+
+.entry {
+    position: relative;
+    margin-bottom: 34px;
+    padding-left: 28px;
+}
+
+.bullet {
+    position: absolute;
+    left: -8px;
+    top: 16px;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: var(--paroti-primary, #f14668);
+    box-shadow: 0 4px 10px rgba(15, 23, 42, 0.06);
+}
+
+.entryBody {
+    background: #fff;
+    border-radius: 12px;
+    padding: 22px 22px;
+    box-shadow: 0 12px 30px rgba(11, 21, 32, 0.06);
+    border: 1px solid rgba(15, 23, 42, 0.06);
+}
+
+.entryTitle {
+    margin: 0 0 8px;
+    font-size: 1.25rem;
+    color: var(--paroti-heading, #0f172a);
+    font-weight: 800;
+}
+
+.entryText {
+    margin: 10px 0;
+    color: var(--paroti-text, #586069);
+    line-height: 1.8;
+}
+
+.entryDate {
+    font-size: 0.9rem;
+    color: #9ca3af;
+    margin-bottom: 8px;
+    font-weight: 700;
+    text-transform: none;
+}
+
+@media (max-width: 768px) {
+    .timeline {
+        padding-left: 18px;
+    }
+
+    .timeline::before {
+        left: 6px;
+    }
+
+    .bullet {
+        left: -6px;
+    }
+}

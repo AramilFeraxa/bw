@@ -4,61 +4,79 @@ export const bezpiecznyWypoczynekBezpiecznyWolontariat = {
     seoDescription:
         "Rozwój wolontariatu systematycznego w Stowarzyszeniu Aktywni na Rzecz Bezpiecznego Wypoczynku. Budujemy nowoczesny, systemowy wolontariat z koordynatorem, szkoleniami i minigrantami.",
     title: "Aktywny wolontariat dla Bezpiecznego Wypoczynku!",
-    subtitle: "",
+    subtitle: "Budujemy nową jakość bezpieczeństwa poprzez profesjonalny wolontariat systemowy",
     category: "Rozwój",
     heroImage: "/assets/images/events/Turawa 2025 spotkanie wolontariuszy Aktywni na Rzecz Bezpiecznego Wypoczunku.jpg",
     progressPercent: 10,
     intro: [
-        "Rozwój wolontariatu systematycznego w Stowarzyszeniu Aktywni na Rzecz Bezpiecznego Wypoczynku.",
-        "Budujemy nowoczesny, systemowy wolontariat: zatrudniamy koordynatora w pełnym wymiarze, wdrażamy spójny model rekrutacji i onboardingu, rozwijamy szkolenia, mentoring i integracje, a także uruchamiamy minigranty dla zespołów wolontariuszy. Projekt działa lokalnie (Praszka, woj. opolskie) i ogólnopolsko – we współpracy z naszymi partnerami (m.in. Zamek Moszna, Zamek Czocha, Pałac w Rybokartach, Turawa, Opole, Katowice, Wrocław). Dzięki temu wzmacniamy misję: bezpieczny, wartościowy wypoczynek dzieci i młodzieży.",
-        "Główną grupą są wolontariusze i wolontariuszki Stowarzyszenia – osoby 18–70+, obecne i nowe, które wspierają kolonie, wydarzenia edukacyjne, prelekcje i kampanie profilaktyczne. Odbiorcami pośrednimi są dzieci i młodzież, ich rodzice oraz kadra pedagogiczna i opiekunowie.",
+        "Projekt „Aktywny wolontariat dla Bezpiecznego Wypoczyku!” to dla nas moment przejścia na wyższy poziom organizacji. Dzięki dofinansowaniu z programu Korpus Solidarności, tworzymy trwałe miejsce dla każdego, kto chce pomagać mądrze i profesjonalnie. Nie działamy już tylko od akcji do akcji – budujemy stabilny system, w którym każdy wolontariusz ma realne wsparcie.",
+        <strong>Co konkretnie wdrażamy w ramach projektu?</strong>,
+        "Chcemy, aby wolontariat w stowarzyszeniu dawał satysfakcję i poczucie sensu. Dlatego w ramach zadania:",
+        <>
+            <ul style={{ marginLeft: '20px', marginTop: '10px' }}>
+                <li style={{ marginBottom: '10px' }}>
+                    zatrudniliśmy koordynatora na pełen etat, który czuwa nad całością działań, pomaga wdrożyć się nowym osobom i jest wsparciem w codziennej pracy.
+                </li>
+                <li style={{ marginBottom: '10px' }}>
+                    wprowadzamy jasne zasady: każdy wolontariusz otrzymuje pakiet powitalny i bierze udział w szkoleniach wprowadzających, dzięki czemu od pierwszego dnia wie, co robić.
+                </li>
+                <li style={{ marginBottom: '10px' }}>
+                    stawiamy na rozwój: Regularnie organizujemy warsztaty z ekspertami – od psychologii pracy z dziećmi po zawiłości prawne i pierwszą pomoc.
+                </li>
+                <li style={{ marginBottom: '10px' }}>
+                    używamy nowoczesnych narzędzi: korzystamy z Systemu Obsługi Wolontariatu (SOW), który pomaga nam sprawnie planować zadania i komunikować się bez szumu informacyjnego.
+                </li>
+            </ul>
+        </>
     ],
     sections: [
         {
-            heading: "Tutoring i wizyty studyjne",
+            heading: "Twoje pomysły, nasze wsparcie: program minigrantów!",
             paragraphs: [
-                "Aby wzmocnić jakość zarządzania, wprowadzamy tutoring dla koordynatora (mentoring liderski, organizacyjny i interpersonalny). Co roku realizujemy minimum jedną wizytę studyjną (4–5 osób: koordynator + aktywni wolontariusze) w organizacjach o ugruntowanej pozycji w edukacji, ochronie małoletnich i wypoczynku.",
-                'Wizyty będą jednodniowe lub kilkudniowe, z warsztatami, obserwacją pracy i konsultacjami; każdorazowo powstanie podsumowanie z rekomendacjami publikowane w "Dzienniku Wolontariusza". Równolegle zapraszamy inne organizacje do nas – dzielimy się praktykami i standardami pracy.',
+                "Chcemy, aby to wolontariusze decydowali o tym, jak najlepiej promować bezpieczeństwo w swoim otoczeniu. Dlatego każdego roku przekazujemy 10 000 zł na realizację oddolnych inicjatyw naszych zespołów.",
+                <a className="thm-btn thm-btn--two" href="/projekty/minigranty-aktywni-dla-bezpiecznego-wypoczynku" target="_blank" rel="noopener noreferrer"><span>Dowiedz się więcej</span></a>
+            ],
+            list: [
+                "Dla kogo: program skierowany jest do grup złożonych z 2–5 aktywnych wolontariuszy stowarzyszenia.",
+                "Na co: można sfinansować m.in. warsztaty lokalne, stworzenie nowych materiałów edukacyjnych, działania animacyjne czy akcje profilaktyczne. Na realizację jednego pomysłu można otrzymać od 500 do 2000 zł.",
+                "Wsparcie merytoryczne: koordynator wolontariatu zapewnia pełne wsparcie na każdym etapie – od pomocy w dopracowaniu pomysłu i wypełnieniu prostego wniosku, aż po pomoc w formalnościach i rozliczeniu projektu."
             ],
         },
         {
-            heading: "Minigranty dla wolontariuszy!",
+            heading: "Inwestujemy w wiedzę: szkolenia i wizyty studyjne",
             paragraphs: [
-                "Uruchamiamy program minigrantów (co roku min. 5 projektów po 500–2000 zł; budżet 10 000 zł/rok).",
+                "Profesjonalny wolontariat to dla nas ciągły rozwój. W ramach projektu stawiamy na konkretne podnoszenie kompetencji całego zespołu.",
                 <>
                     <ul style={{ marginLeft: '20px', marginTop: '10px' }}>
                         <li style={{ marginBottom: '10px' }}>
-                            <strong>Kto?</strong> Zespoły 2–5 aktywnych wolontariuszy (max. udział w 2 projektach/rok na osobę).
+                            <strong>Szkolenia i warsztaty:</strong> regularnie organizujemy spotkania z ekspertami. Wzmacniamy umiejętności z zakresu prawa w wypoczynku, psychologii pracy z dziećmi, komunikacji oraz pierwszej pomocy.
                         </li>
                         <li style={{ marginBottom: '10px' }}>
-                            <strong>Nabór:</strong> kwartalny lub ciągły – do wyczerpania puli; informacja na stronie, w mediach społecznościowych i kanałach wewnętrznych.
+                            <strong>Wizyty studyjne:</strong> wyjeżdżamy do innych organizacji, aby podpatrywać najlepsze standardy ochrony małoletnich i bezpieczeństwa, a następnie wdrażać je u nas.
                         </li>
                         <li style={{ marginBottom: '10px' }}>
-                            <strong>Zasady:</strong> prosty wniosek (cel, rezultaty, harmonogram, budżet, zgodność z misją); ocena przez komisję (koordynator, zarząd, mentor); wsparcie merytoryczne koordynatora na etapie aplikacji.
-                        </li>
-                        <li style={{ marginBottom: '10px' }}>
-                            <strong>Na co?</strong> Lokalne warsztaty i wydarzenia edukacyjne, działania animacyjne, materiały promocyjne/edukacyjne, podnoszenie kompetencji zespołu.
-                        </li>
-                        <li style={{ marginBottom: '10px' }}>
-                            <strong>Rozliczenie:</strong> zaliczka lub refundacja; krótkie sprawozdanie, dokumentacja foto/wideo i autoewaluacja.
+                            <strong>Wsparcie liderskie:</strong> dbamy o profesjonalizm zarządzania – koordynator projektu korzysta z regularnego tutoringu, co gwarantuje wysoką jakość opieki nad wolontariuszami i świetną atmosferę w zespole.
                         </li>
                     </ul>
                 </>,
             ],
         },
         {
-            heading: "Gdzie działamy?",
+            heading: "Chcesz do nas dołączyć?",
             paragraphs: [
-                "Praszka (woj. opolskie) – nasze biuro i centrum koordynacji, spotkań oraz pracy koordynatora. Działania terenowe i wydarzenia realizujemy w całej Polsce (m.in. Moszna, Czocha, Turawa, Opole, Katowice, Wrocław), aby docierać do większej liczby wolontariuszy i efektywnie korzystać z zasobów partnerów.",
-            ],
-        },
+                "Wspólnie zadbajmy o to, by każdy wyjazd był bezpieczny i profesjonalnie zorganizowany.",
+                <>
+                    <a className="thm-btn" href="/wolontariat/zostan-wolontariuszem" target="_blank" rel="noopener noreferrer"><span>Chcę dołączyć!</span></a>
+                </>
+            ]
+        }
     ],
     results: {
-        heading: "Trwałość i efekty (najważniejsze rezultaty)",
+        heading: "Jakie będą efekty tych działań?",
         items: [
-            "Profesjonalny system wolontariatu na lata – stały koordynator, komplet regulaminów i procedur, SOW, wzory dokumentów i scenariuszy jako obowiązujący standard pracy.",
-            'Silna społeczność i wysoka retencja – pakiety i nagrody, "Dziennik Wolontariusza", gala, integracje i szkolenia budują przynależność, motywację i rozwój zespołu.',
-            "Stabilny rozwój organizacji – dywersyfikacja finansowania (granty, JST, odpłatna działalność, darczyńcy, 1,5%), partnerstwa i profesjonalne usługi szkoleniowe.",
+            "Poczucie bezpieczeństwa i rzetelna wiedza: dzięki wdrożeniu jasnych procedur oraz regulaminów, każdy wolontariusz zyskuje merytoryczne przygotowanie i wie, jak profesjonalnie reagować w zróżnicowanych sytuacjach.",
+            'Budowa zintegrowanej społeczności: regularne spotkania, wyjazdy integracyjne oraz doroczna Gala Wolontariatu służą budowaniu trwałych więzi i wzajemnego zaufania wewnątrz zespołu.',
+            "Wyższa jakość wypoczynku: dobrze przygotowany i przeszkolony zespół bezpośrednio przekłada się na wyższy poziom bezpieczeństwa oraz atrakcyjność wyjazdów edukacyjnych dla dzieci i młodzieży.",
         ],
     },
     /*images: [
@@ -73,17 +91,31 @@ export const bezpiecznyWypoczynekBezpiecznyWolontariat = {
     ],*/
     downloadFiles: [
         {
-            label: "Materiały do pobrania (wkrótce)",
-            url: "#",
-            disabled: true,
+            label: "Plan wolontariacki 2025",
+            url: "/assets/files/Plan Wolontariacki 2025.pdf",
         },
+        {
+            label: "Skrócony plan wolontariacki 2025",
+            url: "/assets/files/Skrócony Plan Wolontariacki 2025.pdf",
+        }
     ],
     coordinators: [
         {
             name: "Paulina Jędrzejak-Bartela",
-            email: "",
+            email: "p.jedrzejak@bezpiecznywypoczynek.pl",
         }
     ],
+    projectInfo: {
+        heading: "Informacje o projekcie",
+        itemsLeft: [
+            "Czas trwania:",
+            "Wartość projektu:",
+        ],
+        itemsRight: [
+            "01.10.2025 – 30.09.2028",
+            "420 000 zł",
+        ],
+    },
     funding: {
         description: "Projekt finansowany",
         funders: [

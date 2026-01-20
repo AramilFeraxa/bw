@@ -24,6 +24,7 @@ export default function ProjectsDetailsPage({ project }) {
         shortAbout,
         fundInfo,
         downloadHeader,
+        projectInfo,
     } = project;
 
     const categoryColors = {
@@ -188,8 +189,8 @@ export default function ProjectsDetailsPage({ project }) {
                                 )}
 
                                 {speakersData && speakersData.length > 0 && (
-                                        <Speakers speakers={speakersData} />
-                                    )}
+                                    <Speakers speakers={speakersData} />
+                                )}
 
                                 {fundInfo && (
                                     <div className={styles.fundInfo}>
@@ -240,6 +241,27 @@ export default function ProjectsDetailsPage({ project }) {
                                                 </li>
                                             ))}
                                         </ul>
+                                    </div>
+                                )}
+
+                                {projectInfo && (
+                                    <div className={styles.sidebarSingle}>
+                                        <h3 className={styles.sidebarTitle}>{projectInfo.heading}</h3>
+                                        <div className={styles.projectInfoRow} style={{ display: 'flex', alignItems: 'stretch', gap: '16px' }}>
+                                            <ul className={styles.projectInfoCol} style={{ flex: 1, margin: 0, padding: 0, listStyle: 'none' }}>
+                                                {projectInfo.itemsLeft.map((item, i) => (
+                                                    <li key={`info-left-${i}`} style={{ padding: '4px 0' }}>
+                                                        <strong>{item}</strong>
+                                                    </li>
+                                                ))}
+                                            </ul>
+                                            <div className={styles.projectInfoDivider} style={{ width: '2px', background: '#eee', margin: '0 8px' }} />
+                                            <ul className={styles.projectInfoCol} style={{ flex: 1, margin: 0, padding: 0, listStyle: 'none' }}>
+                                                {projectInfo.itemsRight.map((item, i) => (
+                                                    <li key={`info-right-${i}`} style={{ padding: '4px 0' }}>{item}</li>
+                                                ))}
+                                            </ul>
+                                        </div>
                                     </div>
                                 )}
 
