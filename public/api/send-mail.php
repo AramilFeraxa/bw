@@ -27,12 +27,6 @@ if (!$name || !$email || !$message || !filter_var($email, FILTER_VALIDATE_EMAIL)
     exit;
 }
 
-$smtpHost = "jakubjedrzjb.nazwa.pl";
-$smtpPort = 465;
-$smtpUser = "kontakt@bezpiecznywypoczynek.pl";
-$smtpPass = "BezpiecznyWypoczynek!9!";
-$toEmail  = "kontakt@bezpiecznywypoczynek.pl";
-
 $subject = "$name wysłał wiadomość ze strony bezpiecznywypoczynek.pl";
 $text = "Imię: $name\nEmail: $email\n\nWiadomość:\n$message";
 $html = "
